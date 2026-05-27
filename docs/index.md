@@ -1,10 +1,10 @@
 # Zmanim Documentation
 
-This site documents the sources and calculation methods for the zmanim included in the KosherJava library.
+This site explains common zmanim in plain language. Each page describes what a zman represents and, where available, the basic approach used to calculate it.
 
-If the app you use is based on KosherJava, or on one of its many ports, this documentation can help explain the sources and methods used to calculate those zmanim.
+You may have reached this site because a zmanim app you use linked you here for more detail about a particular time. These pages are meant to help you understand the time shown in your app, including any sources, offsets, or calculation methods that may affect it.
 
-This documentation was generated for KosherJava version X. The version used by your app may be different, so the information here may not match your app exactly.
+This documentation was generated from KosherJava version X. Different apps may use different versions, settings, or defaults, so the information here should be used as a guide rather than a guarantee that every app calculates a zman in exactly the same way.
 
 ## Categories
 
