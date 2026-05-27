@@ -4,7 +4,7 @@ User-facing documentation for KosherJava zmanim, generated from raw Javadoc and 
 
 ## Generate Docs
 
-The workflow has four steps:
+The workflow has five steps:
 
 1. Extract raw Javadoc into JSON:
 
@@ -28,13 +28,22 @@ The workflow has four steps:
    uv run python tools/generate-docs.py render-md
    ```
 
-   The renderer writes category pages at the docs root, such as `docs/alos.md` and `docs/astronomical_dawn.md`. It does not write `docs/index.md` or `docs/index.md`; the main index is maintained by hand.
+   The renderer writes category pages at the docs root, such as `docs/alos.md` and `docs/astronomical_dawn.md`. It does not write `docs/index.md`; the main index is maintained by hand.
 
 4. Build the site:
 
    ```powershell
    uv run zensical build --clean
    ```
+
+5. Deploy with `mike`, then push to GitHub:
+
+   ```powershell
+   uv run mike deploy VERSION latest
+   git push origin gh-pages
+   ```
+
+   Replace `VERSION` with the KosherJava version being documented.
 
 ## Generation Rules
 
