@@ -249,6 +249,28 @@ def category_for(item: dict[str, Any]) -> str:
     return CATEGORY_LABELS[category_id]
 
 
+def entry_rank(entry: SourceEntry) -> tuple[int, int]:
+    if entry.class_name == "ComprehensiveZmanimCalendar":
+        return (0, 0)
+    if entry.class_name == "ZmanimCalendar":
+        return (1, 0)
+    if entry.class_name == "AstronomicalCalendar":
+        return (2, 0)
+    if entry.class_name == "JewishCalendar":
+        return (3, 0)
+    return (4, 0)
+
+
+def deduplicate_entries(entries: list[SourceEntry]) -> list[SourceEntry]:
+    by_title_category: dict[tuple[str, str], SourceEntry] = {}
+    for entry in entries:
+        key = (entry.category, entry.title)
+        existing = by_title_category.get(key)
+        if existing is None or entry_rank(entry) < entry_rank(existing):
+            by_title_category[key] = entry
+    return list(by_title_category.values())
+
+
 def source_entries(items: list[dict[str, Any]]) -> list[SourceEntry]:
     entries: list[SourceEntry] = []
 
@@ -298,7 +320,7 @@ def source_entries(items: list[dict[str, Any]]) -> list[SourceEntry]:
             )
         )
 
-    return entries
+    return deduplicate_entries(entries)
 
 
 def category_sort_key(category: str) -> tuple[int, str]:
