@@ -6,17 +6,17 @@
 
 ## Tzais 120 Minutes
 
-Deprecated because it is a very late time that should be used only lechumra; using it lekula can result in chillul Shabbos and similar concerns.
+Deprecated because it is a very late time that should be used lechumra only; using it lekula can result in chillul Shabbos and similar concerns.
 
-Tzais, or nightfall, calculated according to Rav Chaim Naeh’s understanding that a mil according to the Rambam is 24 minutes, with tzais occurring 5 mil after sunset. This is an extremely late time and is intended only lechumra, such as delaying the start of nighttime mitzvos.
+Tzais, or nightfall, calculated according to Rav Chaim Naeh based on the view that a mil according to the Rambam is 24 minutes, and the opinion of Ula that tzais is 5 mil after sunset. This is an extremely late time and should be used only lechumra, such as delaying the start of nighttime mitzvos.
 
-120 minutes after sunset, or after sea-level sunset depending on the elevation setting.
-
-A similar degree-based calculation uses 26° below the horizon.
+120 minutes after sunset or sea-level sunset, depending on the elevation setting.
 
 This time is long past the 18° point where the darkest point is reached.
 
-In places or dates where the needed sun event cannot be calculated, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set, this zman may not be available.
+The time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+
+A similar degree-based calculation uses 26° below the horizon.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzais120Minutes`
@@ -25,15 +25,15 @@ In places or dates where the needed sun event cannot be calculated, such as in t
 
 ## Tzais 120 Zmanis
 
-Deprecated because it is a very late time that should be used only lechumra; using it lekula can result in chillul Shabbos and similar concerns.
+Deprecated because it is a very late time that should be used lechumra only; using it lekula can result in chillul Shabbos and similar concerns.
 
-Tzais, or dusk, calculated as an extremely late time using 120 zmaniyos minutes after sea-level sunset. It is intended only lechumra, such as delaying the start of nighttime mitzvos.
+Tzais, or dusk, calculated as an extremely late time and intended only for lechumra, such as delaying the start of nighttime mitzvos.
 
 120 zmaniyos minutes after sea-level sunset.
 
-In most places on the globe, this time is when the sun is well below the 18° point, described here as scientifically the darkest point.
+This time is when the sun is well below the 18° point, described here as the scientifically darkest point, in most places on the globe.
 
-In places or dates where the needed sun event cannot be calculated, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set, this zman may not be available.
+The time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzais120Zmanis`
@@ -44,13 +44,13 @@ In places or dates where the needed sun event cannot be calculated, such as in t
 
 Tzais at the point when the sun is 16.1° below the horizon. This corresponds to the sun’s dip below the horizon 72 minutes after sunset according to Rabbeinu Tam’s calculation of tzais [around the equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/) in Jerusalem.
 
-Calculated for when the sun is 16.1° below the horizon.
+When the sun is 16.1° below the horizon.
 
 The question of equinox versus equilux is described as complex. Rabbi Meir Posen in the [Ohr Meir](https://www.worldcat.org/oclc/956316270) is cited as favoring the equilux, while Rabbi Yedidya Manet in [Zmanei HaHalacha Lema'aseh](https://www.nli.org.il/en/books/NNL_ALEPH002542826/NLI) and Rabbi Yonah Mertzbuch are cited as favoring the astronomical equinox.
 
-The difference between the equinox and equilux approaches is about 9 seconds, described as too trivial to make much of a difference.
+The difference between those approaches is about 9 seconds, described as too trivial to make much of a difference.
 
-In northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, the sun may not reach low enough below the horizon for this calculation, so this zman may not be available.
+The time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzais16Point1Degrees`
@@ -59,7 +59,9 @@ In northern and southern locations, even south of the Arctic Circle and north of
 
 ## Tzais 18 Degrees
 
-In northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, the sun may not reach low enough below the horizon for this calculation, so this zman may not be available.
+Tzais associated with the sun being 18° below the horizon.
+
+The time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzais18Degrees`
@@ -68,7 +70,9 @@ In northern and southern locations, even south of the Arctic Circle and north of
 
 ## Tzais 19 Point 8 Degrees
 
-In northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, the sun may not reach low enough below the horizon for this calculation, so this zman may not be available.
+Tzais associated with the sun being 19.8° below the horizon.
+
+The time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzais19Point8Degrees`
@@ -77,15 +81,15 @@ In northern and southern locations, even south of the Arctic Circle and north of
 
 ## Tzais 26 Degrees
 
-Deprecated because it is a very late time that should be used only lechumra; using it lekula can result in chillul Shabbos and similar concerns.
+Deprecated because it is a very late time that should be used lechumra only; using it lekula can result in chillul Shabbos and similar concerns.
 
-Tzais based on when the sun is 26° below the horizon. This is an extremely late time and is intended only lechumra, such as delaying the start of nighttime mitzvos.
+Tzais based on the sun being 26° below the horizon. This is an extremely late time and should be used only lechumra, such as delaying the start of nighttime mitzvos.
 
-Calculated for when the sun is 26° below the horizon.
+When the sun is 26° below the horizon.
 
 This time is long past the 18° point where the darkest point is reached.
 
-In northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, the sun may not reach low enough below the horizon for this calculation, so this zman may not be available.
+The time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzais26Degrees`
@@ -94,13 +98,13 @@ In northern and southern locations, even south of the Arctic Circle and north of
 
 ## Tzais 50 Minutes
 
-Tzais, or nightfall, based on the opinion of Rabbi Moshe Feinstein for the New York area.
+Tzais, or dusk/nightfall, based on the opinion of Rabbi Moshe Feinstein for the New York area.
 
-50 minutes after sunset, or after sea-level sunset depending on the elevation setting.
+50 minutes after sunset or sea-level sunset, depending on the elevation setting.
 
 This time should not be used for latitudes other than ones similar to the latitude of the New York area.
 
-In places or dates where the needed sun event cannot be calculated, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set, this zman may not be available.
+The time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzais50Minutes`
@@ -111,9 +115,9 @@ In places or dates where the needed sun event cannot be calculated, such as in t
 
 Tzais, or nightfall, based on the opinion of the [Chavas Yair](https://en.wikipedia.org/wiki/Yair_Bacharach) and [Divrei Malkiel](https://he.wikipedia.org/wiki/%D7%9E%D7%9C%D7%9B%D7%99%D7%90%D7%9C_%D7%A6%D7%91%D7%99_%D7%98%D7%A0%D7%A0%D7%91%D7%95%D7%99%D7%9D) that the time to walk a [mil](https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement) is 15 minutes, for a total of 60 minutes for 4 mil after sunset.
 
-60 minutes after sunset, or after sea-level sunset depending on the elevation setting.
+60 minutes after sunset or sea-level sunset, depending on the elevation setting.
 
-In places or dates where the needed sun event cannot be calculated, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set, this zman may not be available.
+The time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzais60Minutes`
@@ -128,9 +132,9 @@ Calculated as 72 proportional minutes, equal to 1/10 of the day, after sea level
 
 This calculation makes the time from sunset to tzais shortest at the winter solstice, longest at the summer solstice, and 72 clock minutes at the equinox.
 
-The source notes that this does not match reality, because there is no direct relationship between day length and twilight. It says the shortest twilight is during the equinox, the longest is during the summer solstice, and winter twilight is longer than during the equinoxes despite the shorter daylight.
+The source notes that this does not match reality, because there is no direct relationship between day length and twilight: twilight is shortest during the equinox, longest during the summer solstice, and in winter is longer than during the equinoxes despite shorter daylight.
 
-The time may not be available where the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzais72Zmanis`
@@ -139,13 +143,13 @@ The time may not be available where the calculation cannot be computed, such as 
 
 ## Tzais 90 Minutes
 
-Tzais, or nightfall, based on the opinion of the Magen Avraham that the time to walk a [mil](https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement) according to the [Rambam](https://en.wikipedia.org/wiki/Maimonides) is 18 minutes, with tzais calculated as 5 mil after sunset.
+Tzais, or nightfall, based on the Magen Avraham’s opinion that a mil according to the [Rambam](https://en.wikipedia.org/wiki/Maimonides) is 18 minutes, and on Ula’s calculation of tzais as 5 [mil](https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement) after sunset.
 
-Calculated as 90 minutes after sunset or sea level sunset, depending on the elevation setting.
+Calculated as 90 minutes after sunset, or after sea level sunset depending on the elevation setting.
 
 A similar calculation uses the sun’s position based on this time.
 
-The time may not be available where the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzais90Minutes`
@@ -158,7 +162,7 @@ Tzais, or dusk, known in Yiddish as the achtel, an eighth zman, used in various 
 
 Calculated as 90 proportional minutes, equal to 1/8 of the day, after sea level sunset.
 
-The time may not be available where the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzais90Zmanis`
@@ -167,11 +171,11 @@ The time may not be available where the calculation cannot be computed, such as 
 
 ## Tzais 96 Minutes
 
-Tzais, or dusk.
+Tzais, or dusk, calculated as a fixed 96 minutes after sunset.
 
-Calculated as 96 minutes after sunset or sea level sunset, depending on the elevation setting.
+Calculated as 96 minutes after sunset, or after sea level sunset depending on the elevation setting.
 
-The time may not be available where the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzais96Minutes`
@@ -180,11 +184,11 @@ The time may not be available where the calculation cannot be computed, such as 
 
 ## Tzais 96 Zmanis
 
-Tzais, or dusk.
+Tzais, or dusk, calculated using proportional minutes.
 
 Calculated as 96 proportional minutes, equal to 1/7.5 of the day, after sea level sunset.
 
-The time may not be available where the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzais96Zmanis`
@@ -193,17 +197,15 @@ The time may not be available where the calculation cannot be computed, such as 
 
 ## Tzais Ateret Torah
 
-Tzais associated with Chacham Yosef Harari-Raful of Yeshivat Ateret Torah. The source notes that he uses this time only for calculating other daily zmanim such as Sof Zman Krias Shema and Plag Hamincha, and that his calendars do not publish a zman for Tzais.
+Tzais associated with Chacham Yosef Harari-Raful of Yeshivat Ateret Torah. The source notes that he uses this time only for calculating other zmanei hayom such as Sof Zman Krias Shema and Plag Hamincha, and that his calendars do not publish a zman for Tzais.
 
 Usually calculated as 40 minutes after sea level sunset, with the offset configurable to another number of minutes.
 
 Chacham Harari-Raful provided a 25-minute zman for Israel.
 
-The default described here is 40 minutes year-round in any place on the globe.
+By default, this calculation uses 40 minutes year-round in any place on the globe.
 
-The time depends on the configured Ateret Torah sunset offset when that setting is changed.
-
-The time may not be available where the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzaisAteretTorah`
@@ -214,13 +216,13 @@ The time may not be available where the calculation cannot be computed, such as 
 
 Tzais, or nightfall, based on the opinion of the [Baal Hatanya](https://en.wikipedia.org/wiki/Shneur_Zalman_of_Liadi).
 
-Calculated when the sun is 6° below the western geometric horizon after sunset. This is based on the sun’s position about 24 minutes after sea level sunset in Jerusalem [around the equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/), rounded up to 6° below geometric zenith. The source also cites [About Our Zmanim Calculations @ Chabad.org](https://www.chabad.org/library/article_cdo/aid/3209349/jewish/About-Our-Zmanim-Calculations.htm).
+Calculated when the sun is 6° below the western geometric horizon after sunset. This is based on the sun’s position about 24 minutes after sea level sunset in Jerusalem [around the equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/), which is 6° below geometric zenith.
 
-The source describes the calculation as starting from shkiah amitis at 1.583° below the horizon around the equinox / equilux, which computes 3.516 minutes after sunset, then adding 18 minutes for 3/4 of a 24-minute mil and two minutes for bain hashmashos of Rav Yosi.
+The source points to [About Our Zmanim Calculations @ Chabad.org](https://www.chabad.org/library/article_cdo/aid/3209349/jewish/About-Our-Zmanim-Calculations.htm), based on shkiah amitis as 1.583° below the horizon calculated [around the equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/), computing 3.516 minutes after sunset. To this are added 18 minutes of 3/4 of a 24-minute mil and two minutes for bain hashmashos of Rav Yosi.
 
-This computes the sun at 5.83° below the horizon, very close to a slightly later 5.95° calculation, and is rounded up to 6°.
+That calculation computes the sun as 5.83° below the horizon, very close to the slightly later 5.95° calculation, and it is rounded up to 6°.
 
-The time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not get low enough below the horizon for this calculation.
+This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzaisBaalHatanya`
@@ -229,13 +231,13 @@ The time may not be available in northern and southern locations, even south of 
 
 ## Tzais 72 Minutes
 
-Tzais, or nightfall, based on Rabbeinu Tam’s opinion that tzais hakochavim is 72 minutes after sunset, the time it takes to walk 4 [mil](https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement) at 18 minutes per mil.
+Tzais, or nightfall, based on Rabbeinu Tam’s opinion that tzeis hakochavim is 72 minutes after sunset, the time it takes to walk 4 [mil](https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement) at 18 minutes per mil.
 
-Calculated as 72 standard clock minutes after sunset or sea level sunset, depending on the elevation setting.
+Calculated as 72 standard clock minutes after sunset, or after sea level sunset depending on the elevation setting.
 
-According to the [Machtzis Hashekel](https://en.wikipedia.org/wiki/Samuel_Loew) in Orach Chaim 235:3, the [Pri Megadim](https://en.wikipedia.org/wiki/Joseph_ben_Meir_Teomim) in Orach Chaim 261:2, and others cited in the source, the 72 minutes are standard clock minutes at any time of year in any location.
+According to the [Machtzis Hashekel](https://en.wikipedia.org/wiki/Samuel_Loew) in Orach Chaim 235:3, the [Pri Megadim](https://en.wikipedia.org/wiki/Joseph_ben_Meir_Teomim) in Orach Chaim 261:2, and others, the 72 minutes are standard clock minutes any time of year in any location.
 
-The time may not be available where the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ZmanimCalendar.getTzais72Minutes`

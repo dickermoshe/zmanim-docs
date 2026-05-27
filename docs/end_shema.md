@@ -6,9 +6,9 @@
 
 ## Sof Zman Shma 3 Hours Before Chatzos
 
-The latest time to recite Shema in the morning, calculated as 3 regular clock hours before chatzos hayom. This is generally known as part of the “Komarno” zmanim after [Rav Yitzchak Eizik of Komarno](https://en.wikipedia.org/wiki/Komarno_(Hasidic_dynasty)#Rabbi_Yitzchak_Eisik_Safrin), though the description says it predates him and cites earlier and later sources.
+The latest time to recite Shema in the morning, calculated as 3 regular clock hours before chatzos hayom. This is generally known as part of the “Komarno” zmanim after [Rav Yitzchak Eizik of Komarno](https://en.wikipedia.org/wiki/Komarno_(Hasidic_dynasty)#Rabbi_Yitzchak_Eisik_Safrin), though the description says it predates him and lists earlier and later sources.
 
-3 regular clock hours before chatzos hayom, not shaos zmaniyos.
+It is 3 regular clock hours, not shaos zmaniyos, before chatzos hayom.
 
 This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
@@ -19,9 +19,9 @@ This time may not be available when the calculation cannot be computed, such as 
 
 ## Sof Zman Shma Alos 16 Point 1 To Sunset
 
-The latest time to recite Shema in the morning according to the opinion that the day starts at alos 16.1° and ends at sea level sunset. This is cited as the opinion of [חידושי וכללות הרז״ה](https://hebrewbooks.org/40357) and [מנורה הטהורה](https://hebrewbooks.org/14799), as mentioned by Yisrael Vehazmanim [vol. 1, sec. 7, ch. 3 no. 16](https://hebrewbooks.org/pdfpager.aspx?req=9765&pgnum=81).
+The latest time to recite Shema in the morning, based on the opinion that the day starts at alos 16.1° and ends at sea level sunset. This is described as the opinion of [חידושי וכללות הרז״ה](https://hebrewbooks.org/40357) and [מנורה הטהורה](https://hebrewbooks.org/14799), as mentioned by Yisrael Vehazmanim [vol. 1, sec. 7, ch. 3 no. 16](https://hebrewbooks.org/pdfpager.aspx?req=9765&pgnum=81).
 
-The day is measured from alos 16.1° to sea level sunset. Three shaos zmaniyos are calculated from that day and added to alos.
+Three shaos zmaniyos are calculated from a day running from alos 16.1° to sea level sunset, and added to alos.
 
 Based on this calculation, chatzos will not be at midday.
 
@@ -36,9 +36,9 @@ This time may not be available in northern and southern locations, even south of
 
 ## Sof Zman Shma Alos 16 Point 1 To Tzais Geonim 7 Point 083 Degrees
 
-The latest time to recite Shema in the morning according to the opinion that the day starts at alos 16.1° and ends at tzais 7.083°.
+The latest time to recite Shema in the morning, based on the opinion that the day starts at alos 16.1° and ends at tzais 7.083°.
 
-The day is measured from alos 16.1° to tzais 7.083°. Three shaos zmaniyos are calculated from that day and added to alos.
+Three shaos zmaniyos are calculated from a day running from alos 16.1° to tzais 7.083°, and added to alos.
 
 Based on this calculation, chatzos will not be at midday.
 
@@ -53,11 +53,13 @@ This time may not be available in northern and southern locations, even south of
 
 ## Sof Zman Shma Ateret Torah
 
-The latest time to recite Shema in the morning based on the calculation of Chacham Yosef Harari-Raful of Yeshivat Ateret Torah.
+The latest time to recite Shema in the morning, based on the calculation of Chacham Yosef Harari-Raful of Yeshivat Ateret Torah.
 
-The day starts 1/10th of the day before sunrise and usually ends 40 minutes after sunset, though that sunset offset can be configured. Three shaos zmaniyos for this day are added to alos 72 zmaniyos.
+The day starts 1/10th of the day before sunrise and usually ends 40 minutes after sunset, though that sunset offset is configurable. The time is 3 shaos zmaniyos after alos 72 zmaniyos, with the shaos zmaniyos calculated from this day.
 
 Based on this calculation, chatzos will not be at midday.
+
+This time depends on the Ateret Torah sunset offset, which is usually 40 minutes after sunset but can be set to another offset.
 
 This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
@@ -68,9 +70,9 @@ This time may not be available when the calculation cannot be computed, such as 
 
 ## Sof Zman Shma Baal Hatanya
 
-The latest time to recite Shema in the morning according to the Baal Hatanya, based on calculating the day from sunrise to sunset.
+The latest time to recite Shema in the morning according to the Baal Hatanya, based on a day calculated from sunrise to sunset.
 
-3 shaos zmaniyos after netz amiti, sunrise, using the Baal Hatanya’s solar-hour calculation.
+It is 3 shaos zmaniyos after netz amiti, sunrise, using the Baal Hatanya calculation of shaos zmaniyos.
 
 This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
@@ -81,9 +83,9 @@ This time may not be available when the calculation cannot be computed, such as 
 
 ## Sof Zman Shma GRASunrise To Fixed Local Chatzos
 
-The latest time to recite Shema in the morning according to [Rav Moshe Feinstein’s](https://en.wikipedia.org/wiki/Moshe_Feinstein) calculation within the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon) opinion that the day is calculated from sunrise to sunset, using only the first half of the day.
+Rav Moshe Feinstein’s opinion for calculating sof zman krias Shema according to the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon), where the day is calculated from sunrise to sunset but this zman is based only on the first half of the day.
 
-The first half of the day is measured from sunrise to fixed local chatzos. Sof zman Shema is 3 shaos zmaniyos after sunrise, described as half of this half-day.
+The half-day starts at sunrise and ends at fixed local chatzos. Sof zman Shema is 3 shaos zmaniyos after sunrise, described as half of this half-day.
 
 This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
@@ -94,9 +96,11 @@ This time may not be available in northern and southern locations, even south of
 
 ## Sof Zman Shma MGA 120 Minutes
 
-The latest time to recite Shema in the morning according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), with alos set at 120 minutes before sunrise. The description notes that this is an extremely early zman and very much a chumra.
+The latest time to recite Shema in the morning according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), based on alos being 120 minutes, or 1/6th of the day, before sunrise.
 
-The day is calculated from dawn 120 minutes before sunrise to nightfall 120 minutes after sunset. The time is 3 shaos zmaniyos after that dawn.
+It is 3 shaos zmaniyos after dawn, with the day calculated from dawn 120 minutes before sunrise to nightfall 120 minutes after sunset.
+
+This is described as an extremely early zman that is very much a chumra.
 
 This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
@@ -107,9 +111,9 @@ This time may not be available when the calculation cannot be computed, such as 
 
 ## Sof Zman Shma MGA 16 Point 1 Degrees
 
-The latest time to recite Shema in the morning according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), with alos defined as 16.1° before sunrise.
+The latest time to recite Shema in the morning according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), based on alos being when the sun is 16.1° below the horizon before sunrise.
 
-The day is calculated from dawn to nightfall, with both defined as the sun being 16.1° below sunrise or sunset. The time is 3 shaos zmaniyos after dawn.
+It is 3 shaos zmaniyos after dawn, with the day calculated from dawn to nightfall, both defined as the sun being 16.1° below the horizon before sunrise or after sunset.
 
 This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
@@ -120,11 +124,11 @@ This time may not be available in northern and southern locations, even south of
 
 ## Sof Zman Shma MGA 16 Point 1 Degrees To Fixed Local Chatzos
 
-The latest time to recite Shema in the morning according to [Rav Moshe Feinstein](https://en.wikipedia.org/wiki/Moshe_Feinstein)’s calculation of the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner) opinion, using only the first half of the day.
+The latest time to recite Shema in the morning according to [Rav Moshe Feinstein](https://en.wikipedia.org/wiki/Moshe_Feinstein), following the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner) view that the day is measured from dawn to nightfall, but using only the first half of the day.
 
-The first half of the day is measured from alos, defined as when the sun is 16.1° below the horizon, until fixed local chatzos. Sof zman Shema is 3 shaos zmaniyos after that alos, which is half of this half-day.
+The first half of the day starts at alos when the sun is 16.1° below the horizon and ends at fixed local chatzos. Sof zman Shema is 3 shaos zmaniyos, or half of this half-day, after that alos.
 
-This zman may not be available or cannot be calculated in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This time may not be available where the sun does not reach low enough below the horizon for this calculation, including some northern and southern locations even south of the Arctic Circle and north of the Antarctic Circle.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanShmaMGA16Point1DegreesToFixedLocalChatzos`
@@ -133,11 +137,11 @@ This zman may not be available or cannot be calculated in northern and southern 
 
 ## Sof Zman Shma MGA 18 Degrees
 
-The latest time to recite Shema in the morning according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), with the day calculated from dawn to nightfall.
+The latest time to recite Shema in the morning according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), based on alos being when the sun is 18° below the horizon before sunrise.
 
-Alos is defined as when the sun is 18° below the horizon before sunrise, and nightfall is when the sun is 18° below the horizon after sunset. Sof zman Shema is 3 shaos zmaniyos after dawn, using solar hours based on that 18° dawn-to-nightfall day.
+The day is measured from dawn to nightfall, with both defined as the sun being 18° below the horizon before sunrise or after sunset. Sof zman Shema is 3 shaos zmaniyos after dawn.
 
-This zman may not be available or cannot be calculated in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This time may not be available where the sun does not reach low enough below the horizon for this calculation, including some northern and southern locations even south of the Arctic Circle and north of the Antarctic Circle.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanShmaMGA18Degrees`
@@ -146,11 +150,11 @@ This zman may not be available or cannot be calculated in northern and southern 
 
 ## Sof Zman Shma MGA 18 Degrees To Fixed Local Chatzos
 
-The latest time to recite Shema in the morning according to [Rav Moshe Feinstein](https://en.wikipedia.org/wiki/Moshe_Feinstein)’s calculation of the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner) opinion, using only the first half of the day.
+The latest time to recite Shema in the morning according to [Rav Moshe Feinstein](https://en.wikipedia.org/wiki/Moshe_Feinstein), following the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner) view that the day is measured from dawn to nightfall, but using only the first half of the day.
 
-The first half of the day is measured from alos, defined as when the sun is 18° below the horizon, until fixed local chatzos. Sof zman Shema is 3 shaos zmaniyos after alos, which is half of this half-day.
+The first half of the day starts at alos when the sun is 18° below the horizon and ends at fixed local chatzos. Sof zman Shema is 3 shaos zmaniyos, or half of this half-day, after alos.
 
-This zman may not be available or cannot be calculated in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This time may not be available where the sun does not reach low enough below the horizon for this calculation, including some northern and southern locations even south of the Arctic Circle and north of the Antarctic Circle.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanShmaMGA18DegreesToFixedLocalChatzos`
@@ -159,11 +163,11 @@ This zman may not be available or cannot be calculated in northern and southern 
 
 ## Sof Zman Shma MGA 19 Point 8 Degrees
 
-The latest time to recite Shema in the morning according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), with the day calculated from dawn to nightfall.
+The latest time to recite Shema in the morning according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), based on alos being when the sun is 19.8° below the horizon before sunrise.
 
-Alos is defined as when the sun is 19.8° below the horizon before sunrise, and nightfall is when the sun is 19.8° below the horizon after sunset. Sof zman Shema is 3 shaos zmaniyos after dawn, using solar hours based on that 19.8° dawn-to-nightfall day.
+The day is measured from dawn to nightfall, with both defined as the sun being 19.8° below the horizon before sunrise or after sunset. Sof zman Shema is 3 shaos zmaniyos after dawn.
 
-This zman may not be available or cannot be calculated in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This time may not be available where the sun does not reach low enough below the horizon for this calculation, including some northern and southern locations even south of the Arctic Circle and north of the Antarctic Circle.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanShmaMGA19Point8Degrees`
@@ -172,11 +176,11 @@ This zman may not be available or cannot be calculated in northern and southern 
 
 ## Sof Zman Shma MGA 72 Minutes To Fixed Local Chatzos
 
-The latest time to recite Shema in the morning according to [Rav Moshe Feinstein](https://en.wikipedia.org/wiki/Moshe_Feinstein)’s calculation of the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner) opinion, using only the first half of the day.
+The latest time to recite Shema in the morning according to [Rav Moshe Feinstein](https://en.wikipedia.org/wiki/Moshe_Feinstein), following the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner) view that the day is measured from dawn to nightfall, but using only the first half of the day.
 
-The first half of the day is measured from alos, defined as 72 minutes before sunrise, until fixed local chatzos. Sof zman Shema is 3 shaos zmaniyos after that alos, which is half of this half-day.
+The first half of the day starts at alos, defined as 72 minutes before sunrise, and ends at fixed local chatzos. Sof zman Shema is 3 shaos zmaniyos, or half of this half-day, after that alos.
 
-This zman may not be available or cannot be calculated in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This time may not be available where the sun does not reach low enough below the horizon for this calculation, including some northern and southern locations even south of the Arctic Circle and north of the Antarctic Circle.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanShmaMGA72MinutesToFixedLocalChatzos`
@@ -185,11 +189,11 @@ This zman may not be available or cannot be calculated in northern and southern 
 
 ## Sof Zman Shma MGA 72 Minutes Zmanis
 
-The latest time to recite Shema in the morning according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), with the day calculated from dawn to nightfall.
+The latest time to recite Shema in the morning according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), based on alos being 72 minutes zmaniyos, or 1/10 of the day, before sunrise.
 
-Alos is 72 minutes zmaniyos, or 1/10th of the day, before sea level sunrise, and nightfall is 72 minutes zmaniyos after sea level sunset. Sof zman Shema is 3 shaos zmaniyos after dawn, using solar hours based on this dawn-to-nightfall day.
+The day is measured from dawn 72 minutes zmaniyos before sea level sunrise to nightfall 72 minutes zmaniyos after sea level sunset. Sof zman Shema is 3 shaos zmaniyos after dawn.
 
-This zman may not be available or cannot be calculated in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanShmaMGA72MinutesZmanis`
@@ -198,11 +202,11 @@ This zman may not be available or cannot be calculated in places such as the Arc
 
 ## Sof Zman Shma MGA 90 Minutes
 
-The latest time to recite Shema in the morning according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), with the day calculated from dawn to nightfall.
+The latest time to recite Shema in the morning according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), based on alos being 90 minutes before sunrise.
 
-Alos is 90 minutes before sunrise, and nightfall is 90 minutes after sunset. Sof zman Shema is 3 shaos zmaniyos after dawn, using solar hours based on this dawn-to-nightfall day.
+The day is measured from dawn 90 minutes before sunrise to nightfall 90 minutes after sunset. Sof zman Shema is 3 shaos zmaniyos after dawn.
 
-This zman may not be available or cannot be calculated in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanShmaMGA90Minutes`
@@ -211,11 +215,11 @@ This zman may not be available or cannot be calculated in places such as the Arc
 
 ## Sof Zman Shma MGA 90 Minutes To Fixed Local Chatzos
 
-The latest time to recite Shema in the morning according to [Rav Moshe Feinstein](https://en.wikipedia.org/wiki/Moshe_Feinstein)’s calculation of the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner) opinion, using only the first half of the day.
+The latest time to recite Shema in the morning according to [Rav Moshe Feinstein](https://en.wikipedia.org/wiki/Moshe_Feinstein), following the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner) view that the day is measured from dawn to nightfall, but using only the first half of the day.
 
-The first half of the day is measured from alos, defined as 90 minutes before sunrise, until fixed local chatzos. Sof zman Shema is 3 shaos zmaniyos after that alos, which is half of this half-day.
+The first half of the day starts at alos, defined as 90 minutes before sunrise, and ends at fixed local chatzos. Sof zman Shema is 3 shaos zmaniyos, or half of this half-day, after that alos.
 
-This zman may not be available or cannot be calculated in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This time may not be available where the sun does not reach low enough below the horizon for this calculation, including some northern and southern locations even south of the Arctic Circle and north of the Antarctic Circle.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanShmaMGA90MinutesToFixedLocalChatzos`

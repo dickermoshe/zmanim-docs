@@ -6,11 +6,11 @@
 
 ## Mincha Gedola 16 Point 1 Degrees
 
-Mincha gedola according to the Magen Avraham, with the day beginning and ending when the sun is 16.1° below the horizon. This is the earliest time to pray mincha.
+Mincha gedola according to the Magen Avraham, using a day that starts and ends when the sun is 16.1° below the horizon. It is the earliest time to pray mincha.
 
-Calculated as 6.5 solar hours after alos, using the shaah zmanis for a day based on 16.1° below the horizon. If the setting to use astronomical chatzos for other zmanim is enabled, it is calculated as half of a half-day-based shaah zmanis between chatzos hayom and alos 16.1°, added after chatzos hayom.
+Calculated as 6.5 solar hours after alos, using shaah zmanis 16.1 degrees after alos 16.1 degrees. If the setting to use astronomical chatzos for other zmanim is enabled, it is calculated as half of a half-day-based shaah zmanis between chatzos hayom and alos 16.1 degrees, after chatzos hayom.
 
-This time may not be available in northern or southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This zman may not be available or cannot be calculated in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getMinchaGedola16Point1Degrees`
@@ -19,13 +19,17 @@ This time may not be available in northern or southern locations, even south of 
 
 ## Mincha Gedola 30 Minutes
 
-Mincha gedola calculated as 30 regular clock minutes after chatzos. Some use this time to delay the start of mincha in winter, when half of a shaah zmanis is less than 30 minutes. It should not be used to start mincha before the standard GRA mincha gedola. See Shulchan Aruch [Orach Chayim 234:1](https://hebrewbooks.org/pdfpager.aspx?req=49624&st=&pgnum=291) and the Shaar Hatziyon seif katan ches.
+Mincha gedola calculated as 30 regular clock minutes after chatzos. Some use this time to delay the start of mincha in the winter when half of a shaah zmanis is less than 30 minutes.
 
-Calculated as a fixed 30 minutes after chatzos, not as half of a shaah zmanis after chatzos.
+Calculated as 30 minutes after chatzos, rather than as half of a shaah zmanis after chatzos.
 
-Because this is a fixed 30 minutes after chatzos, it is affected by the setting for astronomical chatzos, and not by the separate setting for using astronomical chatzos for other zmanim.
+One should not use this time to start mincha before the standard mincha gedola.
 
-This time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one day when it does not set.
+See Shulchan Aruch [Orach Chayim 234:1](https://hebrewbooks.org/pdfpager.aspx?req=49624&st=&pgnum=291) and the Shaar Hatziyon seif katan ches.
+
+Because this is a fixed 30 minutes of regular clock time after chatzos, it is affected by the setting for astronomical chatzos and not by the setting for using astronomical chatzos for other zmanim.
+
+This zman may not be available or cannot be calculated in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getMinchaGedola30Minutes`
@@ -34,11 +38,11 @@ This time may not be available in places such as the Arctic Circle, where there 
 
 ## Mincha Gedola 72 Minutes
 
-Mincha gedola according to the Magen Avraham, with the day beginning 72 minutes before sunrise and ending 72 minutes after sunset. This is the earliest time to pray mincha.
+Mincha gedola according to the Magen Avraham, using a day that starts 72 minutes before sunrise and ends 72 minutes after sunset. It is the earliest time to pray mincha.
 
-Calculated as 6.5 solar hours after alos, using the shaah zmanis for a day that begins 72 minutes before sunrise and ends 72 minutes after sunset. If the setting to use astronomical chatzos for other zmanim is enabled, it is calculated as half of a half-day-based shaah zmanis between chatzos hayom and tzais 72 minutes, added after chatzos hayom.
+Calculated as 6.5 solar hours after alos, using shaah zmanis 72 minutes after alos 72 minutes. If the setting to use astronomical chatzos for other zmanim is enabled, it is calculated as half of a half-day-based shaah zmanis between chatzos hayom and tzais 72 minutes, after chatzos hayom.
 
-This time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one day when it does not set.
+This zman may not be available or cannot be calculated in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getMinchaGedola72Minutes`
@@ -49,11 +53,11 @@ This time may not be available in places such as the Arctic Circle, where there 
 
 Mincha gedola based on the opinion of [Rabbi Yaakov Moshe Hillel](https://en.wikipedia.org/wiki/Yaakov_Moshe_Hillel), as published in the luach of the Bais Horaah of Yeshivat Chevrat Ahavat Shalom. Mincha gedola is the earliest time to pray mincha.
 
-Calculated as half a shaah zmanis after chatzos, with shaos zmaniyos based on a day beginning at alos 16.1° and ending at tzais 3.7°, which is 13.5 minutes after sunset. The time used is the later of this calculation or 30 regular clock minutes after chatzos.
+Calculated as half a shaah zmanis after chatzos, with shaos zmaniyos based on a day starting at alos 16.1°, described here as 72 minutes before sunrise, and ending at tzais 3.7°, described here as 13.5 minutes after sunset. The later of this time or 30 clock minutes after chatzos is used.
 
-The setting to use astronomical chatzos for other zmanim does not apply here, because this calculation involves chatzos offset from the center of the astronomical day.
+The setting for using astronomical chatzos for other zmanim is not applicable here, because this calculation involves chatzos offset from the center of the astronomical day.
 
-This time may not be available in northern or southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This zman may not be available or cannot be calculated in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getMinchaGedolaAhavatShalom`
@@ -64,9 +68,9 @@ This time may not be available in northern or southern locations, even south of 
 
 Mincha gedola based on the calculation of Chacham Yosef Harari-Raful of Yeshivat Ateret Torah. This is the preferred earliest time to pray mincha according to the opinion of the [Rambam](https://en.wikipedia.org/wiki/Maimonides) and others.
 
-Calculated as 6.5 solar hours after alos. The day begins 1/10th of the day before sunrise and usually ends 40 minutes after sunset; that sunset offset can be configured to a different amount.
+Calculated as 6.5 solar hours after alos, using shaah zmanis Ateret Torah after alos 72 zmanis. In this calculation, the day starts 1/10th of the day before sunrise and usually ends 40 minutes after sunset, with that sunset offset configurable to another value.
 
-This time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one day when it does not set.
+This zman may not be available or cannot be calculated in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getMinchaGedolaAteretTorah`
@@ -77,9 +81,9 @@ This time may not be available in places such as the Arctic Circle, where there 
 
 Mincha gedola according to the Baal Hatanya. Mincha gedola is the earliest time one can pray mincha. The [Rambam](https://en.wikipedia.org/wiki/Maimonides) is of the opinion that it is better to delay mincha until mincha ketana, while the [Ra"sh](https://en.wikipedia.org/wiki/Asher_ben_Jehiel), [Tur](https://en.wikipedia.org/wiki/Jacob_ben_Asher), [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon), and others are of the opinion that mincha can be prayed lechatchila starting at mincha gedola.
 
-Calculated as 6.5 sea-level solar hours after netz amiti, or real sunrise, based on the Baal Hatanya’s view that the day is calculated from sunrise to sunset.
+Calculated as 6.5 sea-level solar hours after netz amiti, or real sunrise. This is based on the Baal Hatanya’s opinion that the day is calculated from sunrise to sunset.
 
-This time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one day when it does not set.
+This zman may not be available or cannot be calculated in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getMinchaGedolaBaalHatanya`
@@ -88,11 +92,11 @@ This time may not be available in places such as the Arctic Circle, where there 
 
 ## Mincha Gedola GRAFixed Local Chatzos 30 Minutes
 
-Mincha gedola according to [Rav Moshe Feinstein](https://en.wikipedia.org/wiki/Moshe_Feinstein), for the earliest time one can pray mincha according to the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon).
+Mincha gedola according to [Rav Moshe Feinstein’s](https://en.wikipedia.org/wiki/Moshe_Feinstein) calculation of the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon) view. It is the earliest time one can pray mincha.
 
 Calculated as 30 minutes after fixed local chatzos.
 
-This time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one day when it does not set.
+This zman may not be available or cannot be calculated in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getMinchaGedolaGRAFixedLocalChatzos30Minutes`
@@ -101,13 +105,13 @@ This time may not be available in places such as the Arctic Circle, where there 
 
 ## Mincha Gedola GRAGreater Than 30
 
-The later of GRA mincha gedola and the time 30 minutes after chatzos. In winter, when half of a GRA shaah zmanis is less than 30 minutes, the 30-minutes-after-chatzos time is used; otherwise, the GRA mincha gedola time is used.
+The later of the standard GRA mincha gedola and mincha gedola calculated as 30 minutes after chatzos.
 
-Calculated by comparing GRA mincha gedola with 30 minutes after chatzos and using the later time.
+In winter, when half of a GRA shaah zmanis is less than 30 minutes, the 30-minutes-after-chatzos time is used. Otherwise, the standard GRA mincha gedola is used.
 
-Because this calculation can be based on an offset from chatzos when 30 regular clock minutes is greater than half of a shaah zmanis, it may be affected by the setting for astronomical chatzos even when the separate setting for using astronomical chatzos for other zmanim is disabled.
+Because this calculation can be an offset of chatzos when 30 clock minutes is greater than half of a shaah zmanis, it may be affected by the setting for astronomical chatzos even if the setting for using astronomical chatzos for other zmanim is disabled.
 
-This time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one day when it does not set.
+This zman may not be available or cannot be calculated in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getMinchaGedolaGRAGreaterThan30`
@@ -116,11 +120,11 @@ This time may not be available in places such as the Arctic Circle, where there 
 
 ## Mincha Gedola GRA
 
-Mincha gedola is the earliest time one can pray mincha. This time follows the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon). The Ramba"m says it is better to delay mincha until mincha ketana, while the Ra"sh, Tur, GRA, and others say mincha may be prayed lechatchila starting at mincha gedola.
+The latest mincha gedola according to the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon). Mincha gedola is the earliest time one can pray mincha. The Ramba"m holds that it is better to delay mincha until mincha ketana, while the Ra"sh, Tur, GRA, and others hold that mincha may be prayed lechatchila starting at mincha gedola.
 
-It is calculated as 6.5 shaos zmaniyos, or solar hours, after sunrise. The day is measured from sunrise to sunset, using either sea-level sunrise and sea-level sunset or elevation-adjusted sunrise and sunset, depending on the elevation setting.
+It is calculated as 6.5 shaos zmaniyos, or solar hours, after sunrise. The day is measured from sunrise to sunset, using either sea-level sunrise and sea-level sunset or regular sunrise and sunset, depending on the elevation setting.
 
-This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+This zman may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ZmanimCalendar.getMinchaGedolaGRA`

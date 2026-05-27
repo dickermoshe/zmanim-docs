@@ -6,9 +6,9 @@
 
 ## Sof Zman Tfila 2 Hours Before Chatzos
 
-The latest time to recite the morning prayers, calculated as two hours before chatzos hayom. It is based on opinions that calculate sof zman krias shema as three hours before chatzos.
+The latest time to recite the morning prayers, calculated as 2 hours before chatzos hayom. It is based on opinions that calculate sof zman krias shema as 3 hours before chatzos.
 
-Two hours before chatzos hayom.
+2 hours before chatzos hayom.
 
 This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
@@ -19,11 +19,11 @@ This time may not be available when the calculation cannot be computed, such as 
 
 ## Sof Zman Tfila Ateret Torah
 
-The latest time to recite the morning prayers according to the calculation of Chacham Yosef Harari-Raful of Yeshivat Ateret Torah.
+The latest time to recite the morning prayers according to Chacham Yosef Harari-Raful of Yeshivat Ateret Torah.
 
-The day starts at alos, defined as 1/10 of the day before sunrise, and is usually calculated as ending 40 minutes after sunset. Shaos zmaniyos are based on this day, and this time is 4 shaos zmaniyos after alos.
+The day starts at alos, defined as 1/10th of the day before sunrise, and usually ends 40 minutes after sunset. Shaos zmaniyos are calculated from that day, and this time is 4 shaos zmaniyos after alos.
 
-The end of the day is usually 40 minutes after sunset, but this offset can be configured to another value.
+The end of the day is usually 40 minutes after sunset, but it can be configured to a different sunset offset.
 
 Based on this calculation, chatzos will not be at midday.
 
@@ -36,9 +36,9 @@ This time may not be available when the calculation cannot be computed, such as 
 
 ## Sof Zman Tfila Baal Hatanya
 
-The latest time to recite the morning prayers according to the opinion of the Baal Hatanya, who calculates the day from sunrise to sunset.
+The latest time to recite the morning prayers according to the Baal Hatanya, who calculates the day from sunrise to sunset.
 
-Four shaos zmaniyos into the day, counted from netz amiti, sunrise.
+4 shaos zmaniyos into the day, counted from netz amiti, sunrise.
 
 This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
@@ -49,11 +49,11 @@ This time may not be available when the calculation cannot be computed, such as 
 
 ## Sof Zman Tfila GRASunrise To Fixed Local Chatzos
 
-[Rav Moshe Feinstein's](https://en.wikipedia.org/wiki/Moshe_Feinstein) calculation of the latest time to recite the morning prayers according to the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon), where the day is calculated from sunrise to sunset but using only the first half of the day.
+[Rav Moshe Feinstein's](https://en.wikipedia.org/wiki/Moshe_Feinstein) calculation of the latest time to recite the morning prayers according to the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon), using only the first half of the day.
 
-The half-day starts at sunrise and ends at fixed local chatzos. Sof zman tefila is 4 shaos zmaniyos after sunrise, or 2/3 of this half-day.
+The half-day starts at sunrise and ends at fixed local chatzos. Sof zman tefila is 4 shaos zmaniyos after sunrise, equal to 2/3 of this half-day.
 
-This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This time may not be available in northern and southern locations even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanTfilaGRASunriseToFixedLocalChatzos`
@@ -62,9 +62,9 @@ This time may not be available in northern and southern locations, even south of
 
 ## Sof Zman Tfila MGA 120 Minutes
 
-The latest time to recite the morning prayers according to the opinion of the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), using a day that begins 120 minutes before sunrise and ends 120 minutes after sunset. This is described as an extremely early zman and very much a chumra.
+The latest time to recite the morning prayers according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), with alos at 120 minutes before sunrise. This is described as an extremely early zman and very much a chumra.
 
-Four shaos zmaniyos after dawn, where dawn is 120 minutes before sunrise and nightfall is 120 minutes after sunset.
+The day is calculated from dawn 120 minutes before sunrise to nightfall 120 minutes after sunset. This time is 4 shaos zmaniyos after dawn.
 
 This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
@@ -75,11 +75,11 @@ This time may not be available when the calculation cannot be computed, such as 
 
 ## Sof Zman Tfila MGA 16 Point 1 Degrees
 
-The latest time to recite the morning prayers according to the opinion of the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), using a day calculated from dawn to nightfall with both at 16.1° below sunrise or sunset.
+The latest time to recite the morning prayers according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), with alos at 16.1° before sunrise.
 
-Four shaos zmaniyos after dawn, where dawn is when the sun is 16.1° below sunrise and nightfall is when the sun is 16.1° below sunset.
+The day is calculated from dawn to nightfall, with both at 16.1° below sunrise or sunset. This time is 4 shaos zmaniyos after dawn.
 
-This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This time may not be available in northern and southern locations even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanTfilaMGA16Point1Degrees`
@@ -88,11 +88,11 @@ This time may not be available in northern and southern locations, even south of
 
 ## Sof Zman Tfila MGA 18 Degrees
 
-The latest time to recite the morning prayers according to the opinion of the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), using a day calculated from dawn to nightfall with both at 18° below sunrise or sunset.
+The latest time to recite the morning prayers according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), with alos at 18° before sunrise.
 
-Four shaos zmaniyos after dawn, where dawn is when the sun is 18° below sunrise and nightfall is when the sun is 18° below sunset.
+The day is calculated from dawn to nightfall, with both at 18° below sunrise or sunset. This time is 4 shaos zmaniyos after dawn.
 
-This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This time may not be available in northern and southern locations even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanTfilaMGA18Degrees`
@@ -101,11 +101,11 @@ This time may not be available in northern and southern locations, even south of
 
 ## Sof Zman Tfila MGA 19 Point 8 Degrees
 
-The latest time to recite the morning prayers according to the opinion of the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), using a day calculated from dawn to nightfall with both at 19.8° below sunrise or sunset.
+The latest time to recite the morning prayers according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), with alos at 19.8° before sunrise.
 
-Four shaos zmaniyos after dawn, where dawn is when the sun is 19.8° below sunrise and nightfall is when the sun is 19.8° below sunset.
+The day is calculated from dawn to nightfall, with both at 19.8° below sunrise or sunset. This time is 4 shaos zmaniyos after dawn.
 
-This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This time may not be available in northern and southern locations even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanTfilaMGA19Point8Degrees`
@@ -114,11 +114,11 @@ This time may not be available in northern and southern locations, even south of
 
 ## Sof Zman Tfila MGA 72 Minutes Zmanis
 
-The latest time for the morning prayers according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner).
+The latest time for the morning prayers according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), using dawn defined as 72 proportional minutes before sunrise.
 
-It is 4 proportional solar hours after dawn. The day is measured from dawn, defined as 72 proportional minutes before sunrise, until nightfall, defined as 72 proportional minutes after sunset.
+It is 4 proportional hours after dawn. The day is measured from dawn, 72 proportional minutes before sunrise, to nightfall, 72 proportional minutes after sunset.
 
-This time may not be available when the calculation cannot be made, such as in places like the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available when the calculation cannot be made, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanTfilaMGA72MinutesZmanis`
@@ -127,11 +127,11 @@ This time may not be available when the calculation cannot be made, such as in p
 
 ## Sof Zman Tfila MGA 90 Minutes
 
-The latest time to recite the morning prayers according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner).
+The latest time to recite the morning prayers according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), using dawn defined as 90 minutes before sunrise.
 
-It is 4 proportional solar hours after dawn. The day is measured from dawn, defined as 90 minutes before sunrise, until nightfall, defined as 90 minutes after sunset.
+It is 4 proportional hours after dawn. The day is measured from dawn, 90 minutes before sunrise, to nightfall, 90 minutes after sunset.
 
-This time may not be available when the calculation cannot be made, such as in places like the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available when the calculation cannot be made, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanTfilaMGA90Minutes`
@@ -140,11 +140,11 @@ This time may not be available when the calculation cannot be made, such as in p
 
 ## Sof Zman Tfila MGA 90 Minutes Zmanis
 
-The latest time for the morning prayers according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner).
+The latest time for the morning prayers according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), using dawn defined as 90 proportional minutes before sunrise.
 
-It is 4 proportional solar hours after dawn. The day is measured from dawn, defined as 90 proportional minutes before sunrise, until nightfall, defined as 90 proportional minutes after sunset.
+It is 4 proportional hours after dawn. The day is measured from dawn, 90 proportional minutes before sunrise, to nightfall, 90 proportional minutes after sunset.
 
-This time may not be available when the calculation cannot be made, such as in places like the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available when the calculation cannot be made, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanTfilaMGA90MinutesZmanis`
@@ -153,11 +153,11 @@ This time may not be available when the calculation cannot be made, such as in p
 
 ## Sof Zman Tfila MGA 96 Minutes
 
-The latest time to recite the morning prayers according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner).
+The latest time to recite the morning prayers according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), using dawn defined as 96 minutes before sunrise.
 
-It is 4 proportional solar hours after dawn. The day is measured from dawn, defined as 96 minutes before sunrise, until nightfall, defined as 96 minutes after sunset.
+It is 4 proportional hours after dawn. The day is measured from dawn, 96 minutes before sunrise, to nightfall, 96 minutes after sunset.
 
-This time may not be available when the calculation cannot be made, such as in places like the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available when the calculation cannot be made, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanTfilaMGA96Minutes`
@@ -166,11 +166,11 @@ This time may not be available when the calculation cannot be made, such as in p
 
 ## Sof Zman Tfila MGA 96 Minutes Zmanis
 
-The latest time for the morning prayers according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner).
+The latest time for the morning prayers according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), using dawn defined as 96 proportional minutes before sunrise.
 
-It is 4 proportional solar hours after dawn. The day is measured from dawn, defined as 96 proportional minutes before sunrise, until nightfall, defined as 96 proportional minutes after sunset.
+It is 4 proportional hours after dawn. The day is measured from dawn, 96 proportional minutes before sunrise, to nightfall, 96 proportional minutes after sunset.
 
-This time may not be available when the calculation cannot be made, such as in places like the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available when the calculation cannot be made, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanTfilaMGA96MinutesZmanis`
@@ -181,11 +181,11 @@ This time may not be available when the calculation cannot be made, such as in p
 
 The latest time for morning prayer according to the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon).
 
-It is 4 proportional solar hours after sunrise. The day is measured from sunrise to sunset, either using sea-level sunrise and sea-level sunset or regular sunrise and sunset, depending on the elevation setting.
+It is 4 proportional hours after sunrise. The day is measured either from sea-level sunrise to sea-level sunset, or from sunrise to sunset, depending on the elevation setting.
 
-The use of elevation depends on the elevation setting.
+The use of elevation affects whether sunrise and sunset or sea-level sunrise and sea-level sunset are used.
 
-This time may not be available when the calculation cannot be made, such as in places like the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available when the calculation cannot be made, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ZmanimCalendar.getSofZmanTfilaGRA`
@@ -196,11 +196,11 @@ This time may not be available when the calculation cannot be made, such as in p
 
 The latest time for morning prayer according to the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner).
 
-It is 4 proportional solar hours after dawn. The day is measured from 72 minutes before sunrise to 72 minutes after sunset.
+It is 4 proportional hours after dawn. The day is measured from 72 minutes before sunrise to 72 minutes after sunset.
 
 The use of elevation depends on the elevation setting.
 
-This time may not be available when the calculation cannot be made, such as in places like the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available when the calculation cannot be made, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ZmanimCalendar.getSofZmanTfilaMGA72Minutes`

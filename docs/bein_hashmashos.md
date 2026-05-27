@@ -116,9 +116,9 @@ This zman may not be available in places such as the Arctic Circle, where there 
 
 The beginning of bain hashmashos, or twilight, according to the [Yereim (Rabbi Eliezer of Metz)](https://en.wikipedia.org/wiki/Eliezer_ben_Samuel). According to the Yereim, bain hashmashos starts 3/4 of a mil before sunset, and tzais, or nightfall, starts at sunset.
 
-Calculated when the sun is 2.8° above the horizon around the [equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/), corresponding to 16.875 minutes, or 3/4 of an 18-minute [mil](https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement), before sunset.
+Calculated when the sun is 2.8° above the horizon [around the equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/), corresponding to 16.875 minutes, or 3/4 of an 18-minute [mil](https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement), before sunset.
 
-This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+This zman may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getBainHashmashosYereim2Point8Degrees`
@@ -129,13 +129,15 @@ This time may not be available when the calculation cannot be computed, such as 
 
 The beginning of bain hashmashos, or twilight, according to the [Yereim (Rabbi Eliezer of Metz)](https://en.wikipedia.org/wiki/Eliezer_ben_Samuel). According to the Yereim, bain hashmashos starts 3/4 of a mil before sunset, and tzais, or nightfall, starts at sunset.
 
-Calculated when the sun is 3.05° above the horizon around the [equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/), corresponding to 18 minutes, or 3/4 of a 24-minute [mil](https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement), before sunset.
+Calculated when the sun is 3.05° above the horizon [around the equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/), corresponding to 18 minutes, or 3/4 of a 24-minute [mil](https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement), before sunset.
 
-A refraction value of 0.5166° is used lechumra, instead of the traditional 0.566°, amounting to about 14 seconds. The raw description says this is more in line with actual refraction in Eretz Yisrael and cites [Rabbi Yedidya Manet](http://beinenu.com/rabbis/%D7%94%D7%A8%D7%91-%D7%99%D7%93%D7%99%D7%93%D7%99%D7%94-%D7%9E%D7%A0%D7%AA) in [Zmanei HaHalacha Lema'aseh](https://www.nli.org.il/en/books/NNL_ALEPH002542826/NLI), as well as [Luach Itim Lebinah](https://zmanim.online/).
+A refraction value of 0.5166° is used, rather than the traditional 0.566°, as a lechumra of about 14 seconds. This is described as more in line with actual refraction in Eretz Yisrael and is cited from [Rabbi Yedidya Manet](http://beinenu.com/rabbis/%D7%94%D7%A8%D7%91-%D7%99%D7%93%D7%99%D7%93%D7%99%D7%94-%D7%9E%D7%A0%D7%AA) in [Zmanei HaHalacha Lema'aseh](https://www.nli.org.il/en/books/NNL_ALEPH002542826/NLI).
 
-For more details, see [The Yereim's Bain Hashmashos](https://kosherjava.com/2020/12/07/the-yereims-bein-hashmashos/).
+The same 0.5166° refraction is also used by the [Luach Itim Lebinah](https://zmanim.online/).
 
-This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+More details are available in [The Yereim's Bain Hashmashos](https://kosherjava.com/2020/12/07/the-yereims-bein-hashmashos/).
+
+This zman may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getBainHashmashosYereim3Point05Degrees`

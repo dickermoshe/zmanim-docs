@@ -6,13 +6,13 @@
 
 ## Sof Zman Kidush Levana 15 Days
 
-The latest time for Kiddush Levana calculated as 15 days after the molad. This follows the opinion of the Shulchan Aruch, Orach Chaim 426.
+The latest time for Kiddush Levana according to the Shulchan Aruch, Orach Chaim 426, calculated as 15 days after the molad.
 
 It is the moment 15 days after the molad.
 
-Some opinions understand the [Rema](https://en.wikipedia.org/wiki/Moses_Isserles), who cites the [Maharil](https://en.wikipedia.org/wiki/Yaakov_ben_Moshe_Levi_Moelin), as using the halfway point between one molad and the next, and as saying that the Mechaber agrees. The Aruch Hashulchan is also noted. For more detail, see Rabbi Dovid Heber’s discussion in Siman Daled, chapter 4, of [Shaarei Zmanim](https://hebrewbooks.org/53000).
+Some opinions understand the [Rema](https://en.wikipedia.org/wiki/Moses_Isserles), who cites the [Maharil](https://en.wikipedia.org/wiki/Yaakov_ben_Moshe_Levi_Moelin), as using the halfway point between one molad and the next, and as holding that the Mechaber agrees. The Aruch Hashulchan is also noted. For more detail, see Rabbi Dovid Heber’s discussion in Siman Daled, chapter 4, of [Shaarei Zmanim](https://hebrewbooks.org/53000).
 
-The time is given even if it occurs during the day. If the time falls between alos and tzais, alos is used.
+This time can be shown even if it occurs during the day. If the time is between alos and tzais, alos is used.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanKidushLevana15Days`
@@ -21,11 +21,11 @@ The time is given even if it occurs during the day. If the time falls between al
 
 ## Sof Zman Kidush Levana Between Moldos
 
-The latest time for Kiddush Levana according to the [Maharil](https://en.wikipedia.org/wiki/Yaakov_ben_Moshe_Levi_Moelin), who calculates it as halfway between one molad and the next.
+The latest time for Kiddush Levana according to the [Maharil](https://en.wikipedia.org/wiki/Yaakov_ben_Moshe_Levi_Moelin), calculated as halfway between one molad and the next.
 
 It adds half of the 29 days, 12 hours, and 793 chalakim between one molad and the next to the month’s molad: 14 days, 18 hours, 22 minutes, and 666 milliseconds.
 
-The time is given even if it occurs during the day. If the time falls between alos and tzais, alos is used.
+This time can be shown even if it occurs during the day. If the time is between alos and tzais, alos is used.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanKidushLevanaBetweenMoldos`
@@ -34,11 +34,11 @@ The time is given even if it occurs during the day. If the time falls between al
 
 ## Tchilas Zman Kidush Levana 3 Days
 
-The earliest time for Kiddush Levana according to [Rabbeinu Yonah](https://en.wikipedia.org/wiki/Yonah_Gerondi), who says it can be said 3 days after the molad.
+The earliest time for Kiddush Levana according to [Rabbeinu Yonah](https://en.wikipedia.org/wiki/Yonah_Gerondi), who holds that it can be said 3 days after the molad.
 
 It is the moment 3 days after the molad.
 
-The time is given even if it occurs during the day, when Kiddush Levana cannot be said.
+This time can be shown even if it occurs during the day, when Kiddush Levana cannot be said.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTchilasZmanKidushLevana3Days`
@@ -47,69 +47,13 @@ The time is given even if it occurs during the day, when Kiddush Levana cannot b
 
 ## Tchilas Zman Kidush Levana 7 Days
 
-The earliest time for Kiddush Levana according to opinions that it should not be said until 7 days after the molad.
+The earliest time for Kiddush Levana according to the opinions that it should not be said until 7 days after the molad.
 
 It is the moment 7 days after the molad, whether it is day or night.
 
-The time is given even if it occurs during the day, when Kiddush Levana cannot be recited.
+This time can be shown even if it occurs during the day, when Kiddush Levana cannot be recited.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTchilasZmanKidushLevana7Days`
 
     Technical reference: `com.kosherjava.zmanim.ComprehensiveZmanimCalendar.getTchilasZmanKidushLevana7Days`
-
-## Sof Zman Kidush Levana 15 Days
-
-The latest time for Kiddush Levana calculated as 15 days after the molad. This is the opinion brought in the Shulchan Aruch, Orach Chaim 426.
-
-It is the moment 15 days after the molad.
-
-Some opinions understand the [Rema](http://en.wikipedia.org/wiki/Moses_Isserles), who cites the [Maharil](http://en.wikipedia.org/wiki/Yaakov_ben_Moshe_Levi_Moelin), as calculating it as halfway between one molad and the next, and as saying that this is also the opinion of the Mechaber. The Aruch Hashulchan is also noted. For more detail, see Rabbi Dovid Heber’s discussion in Siman Daled, chapter 4, of [Shaarei Zmanim](http://www.worldcat.org/oclc/461326125).
-
-The time is given even if it occurs during the day, when Kiddush Levana cannot be said. If the time falls between alos and tzais, alos should be considered before this time.
-
-??? info "Technical details"
-    Source method: `JewishCalendar.getSofZmanKidushLevana15Days`
-
-    Technical reference: `com.kosherjava.zmanim.hebrewcalendar.JewishCalendar.getSofZmanKidushLevana15Days`
-
-## Sof Zman Kidush Levana Between Moldos
-
-The latest time for Kiddush Levana according to the [Maharil](http://en.wikipedia.org/wiki/Yaakov_ben_Moshe_Levi_Moelin), who calculates it as halfway between one molad and the next.
-
-It adds half of the 29 days, 12 hours, and 793 chalakim between one molad and the next to the month’s molad: 14 days, 18 hours, 22 minutes, and 666 milliseconds.
-
-The time is given even if it occurs during the day, when Kiddush Levana cannot be recited. If the time falls between alos and tzais, alos should be considered before this time.
-
-??? info "Technical details"
-    Source method: `JewishCalendar.getSofZmanKidushLevanaBetweenMoldos`
-
-    Technical reference: `com.kosherjava.zmanim.hebrewcalendar.JewishCalendar.getSofZmanKidushLevanaBetweenMoldos`
-
-## Tchilas Zman Kidush Levana 3 Days
-
-The earliest time for Kiddush Levana calculated as 3 days after the molad.
-
-It is the moment 3 days after the molad.
-
-The time is given even if it occurs during the day, when Kiddush Levana cannot be said. If the time falls between alos and tzais, the next tzais should be considered.
-
-??? info "Technical details"
-    Source method: `JewishCalendar.getTchilasZmanKidushLevana3Days`
-
-    Technical reference: `com.kosherjava.zmanim.hebrewcalendar.JewishCalendar.getTchilasZmanKidushLevana3Days`
-
-## Tchilas Zman Kidush Levana 7 Days
-
-The earliest time for Kiddush Levana calculated as 7 days after the molad, as mentioned by the [Mechaber](http://en.wikipedia.org/wiki/Yosef_Karo).
-
-It is the moment 7 days after the molad.
-
-See the [Bach](http://en.wikipedia.org/wiki/Yoel_Sirkis) regarding this time.
-
-The time is given even if it occurs during the day, when Kiddush Levana cannot be said. If the time falls between alos and tzais, the next tzais should be considered.
-
-??? info "Technical details"
-    Source method: `JewishCalendar.getTchilasZmanKidushLevana7Days`
-
-    Technical reference: `com.kosherjava.zmanim.hebrewcalendar.JewishCalendar.getTchilasZmanKidushLevana7Days`

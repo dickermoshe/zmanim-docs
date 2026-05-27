@@ -6,11 +6,11 @@
 
 ## Plag Ahavat Shalom
 
-Plag hamincha, described here as the earliest time that Shabbos can be started, according to Rabbi Yaakov Moshe Hillel as published in the luach of the Bais Horaah of Yeshivat Chevrat Ahavat Shalom.
+Plag hamincha, described here as the earliest time that Shabbos can be started, according to [Rabbi Yaakov Moshe Hillel](https://en.wikipedia.org/wiki/Yaakov_Moshe_Hillel) as published in the luach of the Bais Horaah of Yeshivat Chevrat Ahavat Shalom.
 
 Calculated as 1.25 shaos zmaniyos before tzais at 3.8°, with shaos zmaniyos based on a day that starts at alos 16.1° and ends at tzais 3.8°.
 
-This time may not be available in northern or southern locations, even south of the Arctic Circle or north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getPlagAhavatShalom`
@@ -19,11 +19,11 @@ This time may not be available in northern or southern locations, even south of 
 
 ## Plag Alos 16 Point 1 To Tzais Geonim 7 Point 083 Degrees
 
-Plag hamincha based on the opinion that the day starts at alos 16.1° and ends at tzais 7.083° after sunset.
+Plag hamincha based on the opinion that the day starts at alos 16.1° before sunrise and ends at tzais 7.083° after sunset.
 
-Calculated as 10.75 shaos zmaniyos after alos 16.1°, using a day from 16.1° before sunrise to 7.083° after sunset.
+Calculated as 10.75 shaos zmaniyos after alos 16.1°, using a shaah zmanis based on the span from alos 16.1° to tzais 7.083°.
 
-This time may not be available in northern or southern locations, even south of the Arctic Circle or north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getPlagAlos16Point1ToTzaisGeonim7Point083Degrees`
@@ -32,15 +32,15 @@ This time may not be available in northern or southern locations, even south of 
 
 ## Plag Alos To Sunset
 
-Deprecated because it gives a very late time, often after shkiah, and using it lekula can result in chillul Shabbos and similar concerns.
+Deprecated because it gives a very late time, often after shkiah, and if used lekula can result in chillul Shabbos and similar problems.
 
 Plag hamincha based on the opinion that the day starts at alos 16.1° and ends at sunset. It should be used lechumra only.
 
-Calculated as 10.75 shaos zmaniyos after alos 16.1°, using a day from dawn at 16.1° before sunrise to sea level sunset.
+Calculated as 10.75 shaos zmaniyos after alos 16.1°, using a shaah zmanis based on the span from alos 16.1° before sunrise to sea level sunset.
 
-By this calculation, plag can occur after sunset.
+By this calculation, plag can occur after sunset, so it should only be used lechumra.
 
-This time may not be available in northern or southern locations, even south of the Arctic Circle or north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getPlagAlosToSunset`
@@ -49,13 +49,13 @@ This time may not be available in northern or southern locations, even south of 
 
 ## Plag Hamincha 120 Minutes
 
-Deprecated because it should be used lechumra only; it gives a very late time, often after shkiah, and using it lekula can result in chillul Shabbos and similar concerns.
+Deprecated because it gives a very late time, often after shkiah, and if used lekula can result in chillul Shabbos and similar problems.
 
 Plag hamincha according to the Magen Avraham, with the day starting at alos 120 minutes. It should be used lechumra only.
 
-Calculated as 10.75 shaos zmaniyos after alos 120 minutes.
+Calculated as 10.75 shaos zmaniyos after alos 120 minutes, using the 120-minute shaah zmanis.
 
-Because this zman is based on an extremely early alos and a very late tzais, it gives a very late time, often after shkiah.
+Because this zman is based on an extremely early alos and a very late tzais, it gives a very late time, often after shkiah, and should only be used lechumra.
 
 This time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
 
@@ -66,13 +66,13 @@ This time may not be available in places such as the Arctic Circle, where there 
 
 ## Plag Hamincha 120 Minutes Zmanis
 
-Deprecated because it should be used lechumra only; it gives a very late time, often after shkiah, and using it lekula can result in chillul Shabbos and similar concerns.
+Deprecated because it gives a very late time, often after shkiah, and if used lekula can result in chillul Shabbos and similar problems.
 
-Plag hamincha based on dawn being 120 minutes zmaniyos, or one-sixth of the day, before sunrise. It should be used lechumra only.
+Plag hamincha based on sunrise being 120 minutes zmaniyos, or 1/6 of the day, before sunrise. It should be used lechumra only.
 
-Calculated as 10.75 shaos zmaniyos after dawn, using the shaah zmanis for the 120-minutes-zmanis calculation.
+Calculated as 10.75 shaos zmaniyos after dawn, using the 120-minutes-zmaniyos shaah zmanis.
 
-Because this zman is based on an extremely early alos and a very late tzais, it should be used lechumra only.
+Because this zman is based on an extremely early alos and a very late tzais, it should only be used lechumra.
 
 This time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
 
@@ -83,15 +83,15 @@ This time may not be available in places such as the Arctic Circle, where there 
 
 ## Plag Hamincha 16 Point 1 Degrees
 
-Deprecated because it should be used lechumra only; it gives a very late time, often after shkiah, and using it lekula can result in chillul Shabbos and similar concerns.
+Deprecated because it gives a very late time, often after shkiah, and if used lekula can result in chillul Shabbos and similar problems.
 
 Plag hamincha based on the opinion that the day starts at alos 16.1° and ends at tzais 16.1°. It should be used lechumra only.
 
-Calculated as 10.75 shaos zmaniyos after dawn at 16.1°.
+Calculated as 10.75 shaos zmaniyos after alos 16.1°, using a shaah zmanis based on alos 16.1° to tzais 16.1°.
 
-By this calculation, plag can occur after sunset.
+By this calculation, plag can occur after sunset, so it should only be used lechumra.
 
-This time may not be available in northern or southern locations, even south of the Arctic Circle or north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getPlagHamincha16Point1Degrees`
@@ -100,15 +100,15 @@ This time may not be available in northern or southern locations, even south of 
 
 ## Plag Hamincha 18 Degrees
 
-Deprecated because it should be used lechumra only; it gives a very late time, often after shkiah, and using it lekula can result in chillul Shabbos and similar concerns.
+Deprecated because it gives a very late time, often after shkiah, and if used lekula can result in chillul Shabbos and similar problems.
 
 Plag hamincha based on the opinion that the day starts at alos 18° and ends at tzais 18°. It should be used lechumra only.
 
-Calculated as 10.75 shaos zmaniyos after dawn at 18°.
+Calculated as 10.75 shaos zmaniyos after alos 18°, using a shaah zmanis based on alos 18° to tzais 18°.
 
-By this calculation, plag can occur after sunset.
+By this calculation, plag can occur after sunset, so it should only be used lechumra.
 
-This time may not be available in northern or southern locations, even south of the Arctic Circle or north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getPlagHamincha18Degrees`
@@ -117,15 +117,15 @@ This time may not be available in northern or southern locations, even south of 
 
 ## Plag Hamincha 19 Point 8 Degrees
 
-Deprecated because it should be used lechumra only; it gives a very late time, often after shkiah, and using it lekula can result in chillul Shabbos and similar concerns.
+Deprecated because it gives a very late time, often after shkiah, and if used lekula can result in chillul Shabbos and similar problems.
 
 Plag hamincha based on the opinion that the day starts at alos 19.8° and ends at tzais 19.8°. It should be used lechumra only.
 
-Calculated as 10.75 shaos zmaniyos after dawn at 19.8°.
+Calculated as 10.75 shaos zmaniyos after alos 19.8°, using a shaah zmanis based on alos 19.8° to tzais 19.8°.
 
-By this calculation, plag can occur after sunset.
+By this calculation, plag can occur after sunset, so it should only be used lechumra.
 
-This time may not be available in northern or southern locations, even south of the Arctic Circle or north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getPlagHamincha19Point8Degrees`
@@ -134,15 +134,15 @@ This time may not be available in northern or southern locations, even south of 
 
 ## Plag Hamincha 26 Degrees
 
-Deprecated because it should be used lechumra only. It gives a very late time, often after shkiah, and using it lekula can result in chillul Shabbos and similar concerns. There is no current plan to remove it.
+Deprecated because this calculation gives a very late time, often after shkiah. Using it lekula can lead to chillul Shabbos and similar serious problems.
 
-Plag hamincha based on the opinion that the day starts at alos when the sun is 26° below the horizon and ends at tzais when the sun is 26° below the horizon. This time should be used lechumra only.
+Plag hamincha based on the view that the day starts at alos when the sun is 26° below the horizon and ends at tzais when the sun is 26° below the horizon.
 
-Calculated as 10.75 shaos zmaniyos after dawn, using the 26° alos-to-tzais day.
+Calculated as 10.75 shaos zmaniyos after dawn, using the shaah zmanis based on the 26° alos-to-tzais day.
 
-Because it is based on an extremely early alos and a very late tzais, it can be a very late time.
+This time is based on an extremely early alos and a very late tzais, so it should be used lechumra only.
 
-This zman may not be available in northern or southern locations where the sun does not reach low enough below the horizon for this calculation.
+The time may not be available in some northern or southern locations, even south of the Arctic Circle or north of the Antarctic Circle, where the sun may not go low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getPlagHamincha26Degrees`
@@ -153,9 +153,9 @@ This zman may not be available in northern or southern locations where the sun d
 
 Plag hamincha according to the Magen Avraham, with the day starting 60 minutes before sunrise and ending 60 minutes after sunset.
 
-Calculated as 10.75 shaos zmaniyos after dawn, where dawn is 60 minutes before sunrise and the day ends 60 minutes after sunset.
+Calculated as 10.75 shaos zmaniyos after dawn, using the shaah zmanis based on a day from 60 minutes before sunrise to 60 minutes after sunset.
 
-This zman may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one day when it does not set.
+The time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getPlagHamincha60Minutes`
@@ -164,15 +164,15 @@ This zman may not be available in places such as the Arctic Circle, where there 
 
 ## Plag Hamincha 72 Minutes
 
-Deprecated because it should be used lechumra only. It gives a very late time, often after shkiah, and using it lekula can result in chillul Shabbos and similar concerns. There is no current plan to remove it.
+Deprecated because this calculation gives a very late time, often after shkiah. Using it lekula can lead to chillul Shabbos and similar serious problems.
 
-Plag hamincha according to the Magen Avraham, with the day starting 72 minutes before sunrise and ending 72 minutes after sunset. This time should be used lechumra only.
+Plag hamincha according to the Magen Avraham, with the day starting 72 minutes before sunrise and ending 72 minutes after sunset.
 
-Calculated as 10.75 shaos zmaniyos after dawn, where dawn is 72 minutes before sunrise and the day ends 72 minutes after sunset.
+Calculated as 10.75 shaos zmaniyos after dawn, using the shaah zmanis based on a day from 72 minutes before sunrise to 72 minutes after sunset.
 
-By this calculation, plag hamincha can occur after sunset.
+This calculation can place plag hamincha after sunset, so it should be used lechumra only.
 
-This zman may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one day when it does not set.
+The time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getPlagHamincha72Minutes`
@@ -181,15 +181,15 @@ This zman may not be available in places such as the Arctic Circle, where there 
 
 ## Plag Hamincha 72 Minutes Zmanis
 
-Deprecated because it should be used lechumra only. It gives a very late time, often after shkiah, and using it lekula can result in chillul Shabbos and similar concerns. There is no current plan to remove it.
+Deprecated because this calculation gives a very late time, often after shkiah. Using it lekula can lead to chillul Shabbos and similar serious problems.
 
-Plag hamincha using a 72-minutes-zmanis calculation. This time should be used lechumra only.
+Plag hamincha using a day that begins at alos 72 minutes zmaniyos before sunrise.
 
-Calculated as 10.75 shaos zmaniyos after dawn using the 72-minutes-zmanis day.
+Calculated as 10.75 shaos zmaniyos after that dawn, using the shaah zmanis for this 72-minutes-zmanis calculation.
 
-By this calculation, plag hamincha can occur after sunset.
+This calculation can place plag hamincha after sunset, so it should be used lechumra only.
 
-This zman may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one day when it does not set.
+The time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getPlagHamincha72MinutesZmanis`
@@ -198,15 +198,15 @@ This zman may not be available in places such as the Arctic Circle, where there 
 
 ## Plag Hamincha 90 Minutes
 
-Deprecated because it should be used lechumra only. It gives a very late time, often after shkiah, and using it lekula can result in chillul Shabbos and similar concerns. There is no current plan to remove it.
+Deprecated because this calculation gives a very late time, often after shkiah. Using it lekula can lead to chillul Shabbos and similar serious problems.
 
-Plag hamincha according to the Magen Avraham, with the day starting 90 minutes before sunrise and ending 90 minutes after sunset. This time should be used lechumra only.
+Plag hamincha according to the Magen Avraham, with the day starting 90 minutes before sunrise and ending 90 minutes after sunset.
 
-Calculated as 10.75 shaos zmaniyos after dawn, where dawn is 90 minutes before sunrise and the day ends 90 minutes after sunset.
+Calculated as 10.75 shaos zmaniyos after dawn, using the shaah zmanis based on a day from 90 minutes before sunrise to 90 minutes after sunset.
 
-By this calculation, plag hamincha can occur after sunset.
+This calculation can place plag hamincha after sunset, so it should be used lechumra only.
 
-This zman may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one day when it does not set.
+The time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getPlagHamincha90Minutes`
@@ -215,15 +215,15 @@ This zman may not be available in places such as the Arctic Circle, where there 
 
 ## Plag Hamincha 90 Minutes Zmanis
 
-Deprecated because it should be used lechumra only. It gives a very late time, often after shkiah, and using it lekula can result in chillul Shabbos and similar concerns. There is no current plan to remove it.
+Deprecated because this calculation gives a very late time, often after shkiah. Using it lekula can lead to chillul Shabbos and similar serious problems.
 
-Plag hamincha using a 90-minutes-zmanis calculation. This time should be used lechumra only.
+Plag hamincha using a day that begins at alos 90 minutes zmaniyos before sunrise.
 
-Calculated as 10.75 shaos zmaniyos after dawn using the 90-minutes-zmanis day.
+Calculated as 10.75 shaos zmaniyos after that dawn, using the shaah zmanis for this 90-minutes-zmanis calculation.
 
-By this calculation, plag hamincha can occur after sunset.
+This calculation can place plag hamincha after sunset, so it should be used lechumra only.
 
-This zman may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one day when it does not set.
+The time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getPlagHamincha90MinutesZmanis`
@@ -232,15 +232,15 @@ This zman may not be available in places such as the Arctic Circle, where there 
 
 ## Plag Hamincha 96 Minutes
 
-Deprecated because it should be used lechumra only. It gives a very late time, often after shkiah, and using it lekula can result in chillul Shabbos and similar concerns. There is no current plan to remove it.
+Deprecated because this calculation gives a very late time, often after shkiah. Using it lekula can lead to chillul Shabbos and similar serious problems.
 
-Plag hamincha according to the Magen Avraham, with the day starting 96 minutes before sunrise and ending 96 minutes after sunset. This time should be used lechumra only.
+Plag hamincha according to the Magen Avraham, with the day starting 96 minutes before sunrise and ending 96 minutes after sunset.
 
-Calculated as 10.75 shaos zmaniyos after dawn, where dawn is 96 minutes before sunrise and the day ends 96 minutes after sunset.
+Calculated as 10.75 shaos zmaniyos after dawn, using the shaah zmanis based on a day from 96 minutes before sunrise to 96 minutes after sunset.
 
-By this calculation, plag hamincha can occur after sunset.
+This calculation can place plag hamincha after sunset, so it should be used lechumra only.
 
-This zman may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one day when it does not set.
+The time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getPlagHamincha96Minutes`
@@ -249,15 +249,15 @@ This zman may not be available in places such as the Arctic Circle, where there 
 
 ## Plag Hamincha 96 Minutes Zmanis
 
-Deprecated because it should be used lechumra only. It gives a very late time, often after shkiah, and using it lekula can result in chillul Shabbos and similar concerns. There is no current plan to remove it.
+Deprecated because this calculation gives a very late time, often after shkiah. Using it lekula can lead to chillul Shabbos and similar serious problems.
 
-Plag hamincha using a 96-minutes-zmanis calculation. This time should be used lechumra only.
+Plag hamincha using a day that begins at alos 96 minutes zmaniyos before sunrise.
 
-Calculated as 10.75 shaos zmaniyos after dawn using the 96-minutes-zmanis day.
+Calculated as 10.75 shaos zmaniyos after that dawn, using the shaah zmanis for this 96-minutes-zmanis calculation.
 
-By this calculation, plag hamincha can occur after sunset.
+This calculation can place plag hamincha after sunset, so it should be used lechumra only.
 
-This zman may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one day when it does not set.
+The time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getPlagHamincha96MinutesZmanis`
@@ -268,9 +268,11 @@ This zman may not be available in places such as the Arctic Circle, where there 
 
 The time of plag hamincha according to Chacham Yosef Harari-Raful of Yeshivat Ateret Torah.
 
-The day starts 1/10th of the day before sunrise and usually ends 40 minutes after sunset, with that sunset offset configurable. Shaos zmaniyos are calculated from this day, and plag hamincha is 10.75 shaos zmaniyos after dawn.
+The day begins 1/10 of the day before sunrise and usually ends 40 minutes after sunset, though that sunset offset can be configured. Shaos zmaniyos are based on this day, and plag hamincha is 10.75 shaos zmaniyos after dawn.
 
-The time may not be available if the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+
+The calculation depends on the Ateret Torah sunset offset setting.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getPlagHaminchaAteretTorah`
@@ -279,11 +281,11 @@ The time may not be available if the calculation cannot be computed, such as in 
 
 ## Plag Hamincha Baal Hatanya
 
-The time of plag hamincha according to the Baal Hatanya, based on a day calculated from sunrise to sunset. See [About Our Zmanim Calculations @ Chabad.org](https://www.chabad.org/library/article_cdo/aid/3209349/jewish/About-Our-Zmanim-Calculations.htm) for more details on this calculation.
+The time of plag hamincha according to the Baal Hatanya, based on a day calculated from sunrise to sunset.
 
-It is calculated as 10.75 shaos zmaniyos after netz amiti, sunrise.
+It is calculated as 10.75 shaos zmaniyos after netz amiti, sunrise. See [About Our Zmanim Calculations @ Chabad.org](https://www.chabad.org/library/article_cdo/aid/3209349/jewish/About-Our-Zmanim-Calculations.htm) for more details on this calculation.
 
-The time may not be available if the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getPlagHaminchaBaalHatanya`
@@ -292,11 +294,11 @@ The time may not be available if the calculation cannot be computed, such as in 
 
 ## Plag Hamincha GRAFixed Local Chatzos To Sunset
 
-The time of plag hamincha according to [Rav Moshe Feinstein's](https://en.wikipedia.org/wiki/Moshe_Feinstein) opinion, calculated according to the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon).
+The time of plag hamincha according to [Rav Moshe Feinstein's](https://en.wikipedia.org/wiki/Moshe_Feinstein) opinion, using the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon) approach that the day ends at sunset.
 
-The day ends at sunset, and plag hamincha is 4.75 shaos zmaniyos after fixed local chatzos.
+It is calculated as 4.75 shaos zmaniyos after fixed local chatzos, with the day ending at sunset.
 
-The time may not be available if the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getPlagHaminchaGRAFixedLocalChatzosToSunset`
@@ -305,13 +307,13 @@ The time may not be available if the calculation cannot be computed, such as in 
 
 ## Plag Hamincha GRA
 
-Plag hamincha according to the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon). Plag hamincha is the earliest time that Shabbos can be started.
+The time of plag hamincha according to the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon). Plag hamincha is the earliest time that Shabbos can be started.
 
-It is calculated as 10.75 shaos zmaniyos after sunrise. The day is calculated from sunrise to sunset, or from sea level sunrise to sea level sunset, depending on the elevation setting.
+It is calculated as 10.75 shaos zmaniyos after sunrise. The day is calculated from sunrise to sunset, using either sea-level sunrise and sea-level sunset or elevation-based sunrise and sunset, depending on the elevation setting.
 
-The calculation depends on whether elevation is used: it uses sunrise and sunset when elevation is used, or sea level sunrise and sea level sunset when elevation is not used.
+This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
-The time may not be available if the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+The calculation depends on whether elevation is used.
 
 ??? info "Technical details"
     Source method: `ZmanimCalendar.getPlagHaminchaGRA`

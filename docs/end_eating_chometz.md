@@ -6,13 +6,13 @@
 
 ## Sof Zman Achilas Chametz Baal Hatanya
 
-The latest time to eat chametz on Erev Pesach according to the Baal Hatanya. It is identical to Sof zman tfilah Baal Hatanya.
+The latest time to eat chametz on Erev Pesach according to the Baal Hatanya. This time is identical to Sof zman tfilah Baal Hatanya.
 
-Calculated as 4 Baal Hatanya shaos zmaniyos into the day, with the day measured from netz amiti, sunrise, to sunset. This is 4 Baal Hatanya shaos zmaniyos after netz amiti.
+Calculated as 4 Baal Hatanya shaos zmaniyos into the day, with the day measured from netz amiti, sunrise, to sunset. In practice, it is 4 Baal Hatanya shaos zmaniyos after netz amiti.
 
-This time is only for Erev Pesach; on other days, it may not be available.
+This zman is only for Erev Pesach; on other days it may not be available.
 
-The time may not be available if the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+It may also be unavailable if the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanAchilasChametzBaalHatanya`
@@ -21,13 +21,13 @@ The time may not be available if the calculation cannot be computed, such as in 
 
 ## Sof Zman Achilas Chametz GRA
 
-The latest time to eat chametz on Erev Pesach according to the opinion of the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon). It is identical to Sof zman tfilah GRA.
+The latest time to eat chametz on Erev Pesach according to the opinion of the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon). This time is identical to Sof zman tfilah GRA.
 
-Calculated as 4 GRA shaos zmaniyos into the day, with the day measured from sunrise to sunset. This is 4 GRA shaos zmaniyos after sea level sunrise.
+Calculated as 4 GRA shaos zmaniyos into the day, with the day measured from sunrise to sunset. In practice, it is 4 GRA shaos zmaniyos after sea level sunrise.
 
-This time is only for Erev Pesach; on other days, it may not be available.
+This zman is only for Erev Pesach; on other days it may not be available.
 
-The time may not be available if the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+It may also be unavailable if the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanAchilasChametzGRA`
@@ -36,13 +36,13 @@ The time may not be available if the calculation cannot be computed, such as in 
 
 ## Sof Zman Achilas Chametz MGA 16 Point 1 Degrees
 
-The latest time to eat chametz on Erev Pesach according to the opinion of the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), based on dawn being when the sun is 16.1° below the horizon.
+The latest time to eat chametz on Erev Pesach according to the opinion of the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), based on alos being when the sun is 16.1° below the horizon before sunrise.
 
-Calculated as 4 shaos zmaniyos after dawn, with the day measured from dawn to nightfall, both defined as 16.1° below sunrise or sunset.
+Calculated as 4 shaos zmaniyos after dawn, with the day measured from dawn to nightfall, both defined as the sun being 16.1° below the horizon before sunrise or after sunset.
 
-This time is only for Erev Pesach; on other days, it may not be available.
+This zman is only for Erev Pesach; on other days it may not be available.
 
-The time may not be available if the calculation cannot be computed, such as in northern and southern locations even south of the Arctic Circle and north of the Antarctic Circle where the sun may not reach low enough below the horizon for this calculation.
+It may also be unavailable if the calculation cannot be computed, such as in northern and southern locations even south of the Arctic Circle and north of the Antarctic Circle where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanAchilasChametzMGA16Point1Degrees`
@@ -51,13 +51,13 @@ The time may not be available if the calculation cannot be computed, such as in 
 
 ## Sof Zman Achilas Chametz MGA 72 Minutes
 
-The latest time to eat chametz on Erev Pesach according to the opinion of the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), based on dawn being 72 minutes before sunrise. It is identical to Sof zman tfilah MGA 72 minutes.
+The latest time to eat chametz on Erev Pesach according to the opinion of the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), based on alos being 72 minutes before sunrise. This time is identical to Sof zman tfilah MGA 72 minutes.
 
 Calculated as 4 shaos zmaniyos after dawn, with the day measured from dawn 72 minutes before sunrise to nightfall 72 minutes after sunset.
 
-This time is only for Erev Pesach; on other days, it may not be available.
+This zman is only for Erev Pesach; on other days it may not be available.
 
-The time may not be available if the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+It may also be unavailable if the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanAchilasChametzMGA72Minutes`
@@ -66,13 +66,13 @@ The time may not be available if the calculation cannot be computed, such as in 
 
 ## Sof Zman Achilas Chametz MGA 72 Minutes Zmanis
 
-The latest time to eat chametz on Erev Pesach according to the opinion of the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), based on dawn being 72 zmaniyos minutes before sunrise. It is identical to Sof zman tfilah MGA 72 minutes zmanis.
+The latest time to eat chametz on Erev Pesach according to the opinion of the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), based on alos being 72 zmaniyos minutes before sunrise. This time is identical to Sof zman tfilah MGA 72 minutes zmanis.
 
 Calculated as 4 shaos zmaniyos after dawn, with the day measured from dawn 72 zmaniyos minutes before sunrise to nightfall 72 zmaniyos minutes after sunset.
 
-This time is only for Erev Pesach; on other days, it may not be available.
+This zman is only for Erev Pesach; on other days it may not be available.
 
-The time may not be available if the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+It may also be unavailable if the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanAchilasChametzMGA72MinutesZmanis`

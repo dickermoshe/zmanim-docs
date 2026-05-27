@@ -8,13 +8,13 @@
 
 This zman is deprecated.
 
-Tzais, or nightfall, according to the Geonim, using the point when the sun is 3.7° below the geometric zenith. This corresponds to 13.5 minutes after sunset in Jerusalem around the [equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/).
+Tzais, or nightfall, according to the Geonim, based on the sun being 3.7° below geometric zenith.
 
-It is calculated as 3/4 of a [mil](https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement) at 18 minutes per mil, which is 13.5 minutes after sunset, and expressed as the sun being 3.7° below sea level.
+This is calculated as the sun’s position 13.5 minutes after sunset, the time to walk 3/4 of a [mil](https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement) at 18 minutes per mil. In Jerusalem, the sun is 3.7° below geometric zenith at this time [around the equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/).
 
-This does not include the 26.46 seconds it takes to walk 49 amos, described as the heref ayin of bain hashmashos of Rav Yosi, at the pace of an 18-minute mil.
+This calculation does not include the 26.46 seconds for walking 49 amos, described as the heref ayin of bain hashmashos of Rav Yosi, at the pace of an 18-minute mil.
 
-Rabbi Yedidya Manet in [Zmanei HaHalacha Lema'aseh](https://www.nli.org.il/en/books/NNL_ALEPH002542826/NLI) lists 3.65°, which the source says appears to be a drop too early.
+Rabbi Yedidya Manet in [Zmanei HaHalacha Lema'aseh](https://www.nli.org.il/en/books/NNL_ALEPH002542826/NLI) lists 3.65°, which is described as appearing to be slightly too early.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzaisGeonim3Point7Degrees`
@@ -25,11 +25,11 @@ Rabbi Yedidya Manet in [Zmanei HaHalacha Lema'aseh](https://www.nli.org.il/en/bo
 
 This zman is deprecated.
 
-Tzais, or nightfall, according to the Geonim, using the point when the sun is 3.8° below the geometric zenith. This corresponds to 14 minutes after sunset in Jerusalem around the [equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/).
+Tzais, or nightfall, according to the Geonim, based on the sun being 3.8° below geometric zenith.
 
-It is calculated as 3/4 of a [mil](https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement) at 18 minutes per mil, which is 13.5 minutes after sunset, plus 30 seconds for the time to walk 49 amos, for a total of 14 minutes after sunset.
+This is calculated as the sun’s position 14 minutes after sunset: 13.5 minutes after sunset, the time to walk 3/4 of a [mil](https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement) at 18 minutes per mil, plus 30 seconds for walking 49 amos, described as the heref ayin of bain hashmashos of Rav Yosi. In Jerusalem, the sun is 3.8° below geometric zenith at this time [around the equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/).
 
-The 49 amos, described as the heref ayin of bain hashmashos of Rav Yosi, would take 26.46 seconds at the pace of an 18-minute mil, rounded to 30 seconds.
+With an 18-minute mil, 49 amos would take 26.46 seconds, rounded to 30 seconds.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzaisGeonim3Point8Degrees`
@@ -40,15 +40,17 @@ The 49 amos, described as the heref ayin of bain hashmashos of Rav Yosi, would t
 
 This zman is deprecated.
 
-Tzais, or nightfall, according to the Geonim, using the sun’s position 4.42° below the western horizon. This is described as a very early zman and should not be relied on without Rabbinical guidance.
+Tzais, or nightfall, according to the Geonim, based on the sun being 4.42° below the western horizon.
 
-It is calculated as 3/4 of a [mil](https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement) based on a 22.5-minute mil, which is 16 7/8 minutes.
+This is calculated as 3/4 of a [mil](https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement) based on a 22.5-minute mil, equal to 16 7/8 minutes after sunset.
 
-This does not include the 33.07 seconds it takes to walk 49 amos, described as the heref ayin of bain hashmashos of Rav Yosi, at the pace of a 22.5-minute mil.
+This is described as a very early zman and should not be relied on without Rabbinical guidance.
 
-Rabbi Yedidya Manet in [Zmanei HaHalacha Lema'aseh](https://www.nli.org.il/en/books/NNL_ALEPH002542826/NLI) lists 4.37°, which the source says appears to be a drop too early.
+This calculation does not include the 33.07 seconds for walking 49 amos, described as the heref ayin of bain hashmashos of Rav Yosi, at the pace of a 22.5-minute mil.
 
-In northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, the sun may not reach low enough below the horizon, so this time may not be available or cannot be calculated.
+Rabbi Yedidya Manet in [Zmanei HaHalacha Lema'aseh](https://www.nli.org.il/en/books/NNL_ALEPH002542826/NLI) lists 4.37°, which is described as appearing to be slightly too early.
+
+The time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzaisGeonim4Point42Degrees`
@@ -59,13 +61,15 @@ In northern and southern locations, even south of the Arctic Circle and north of
 
 This zman is deprecated.
 
-Tzais, or nightfall, according to the Geonim, using the sun’s position 4.66° below the western horizon. This is described as a very early zman and should not be relied on without Rabbinical guidance.
+Tzais, or nightfall, according to the Geonim, based on the sun being 4.66° below the western horizon.
 
-It is calculated as 3/4 of a [mil](https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement) based on a 24-minute mil, which is 18 minutes.
+This is calculated as 3/4 of a [mil](https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement) based on a 24-minute mil, equal to 18 minutes after sunset.
 
-This does not include the 35.28 seconds it takes to walk 49 amos, described as the heref ayin of bain hashmashos of Rav Yosi, at the pace of a 24-minute mil.
+This is described as a very early zman and should not be relied on without Rabbinical guidance.
 
-In northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, the sun may not reach low enough below the horizon, so this time may not be available or cannot be calculated.
+This calculation does not include the 35.28 seconds for walking 49 amos, described as the heref ayin of bain hashmashos of Rav Yosi, at the pace of a 24-minute mil.
+
+The time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzaisGeonim4Point66Degrees`
@@ -74,19 +78,17 @@ In northern and southern locations, even south of the Arctic Circle and north of
 
 ## Tzais Geonim 4 Point 8 Degrees
 
-Tzais, or nightfall, according to the Geonim, using the sun’s position 4.8° below the western horizon. At this point, 3 medium-sized stars are visible to a non-expert with good vision with effort. This is described as an early zman for tzais and should not be relied on without Rabbinical guidance.
+Tzais, or nightfall, according to the Geonim, based on the sun being 4.8° below the western horizon.
 
-It is calculated as 18.6 minutes after sunset: 3/4 of a 24-minute [mil](https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement), plus 0.6 minutes for the time to walk 49 amos for bain hashmashos of Rav Yosi. This corresponds to the sun being 4.8° below the western horizon.
+This is calculated as 18.6 minutes after sunset: 3/4 of a 24-minute [mil](https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement), plus 0.6 minutes for walking 49 amos for bain hashmashos of Rav Yosi. With this zman based on a 24-minute mil, 49 amos would take 35.28 seconds to walk.
 
-This is based on [Rav Yechiel Michel Shlezinger's](https://he.wikipedia.org/wiki/%D7%99%D7%97%D7%99%D7%90%D7%9C_%D7%9E%D7%99%D7%9B%D7%9C_%D7%A9%D7%9C%D7%96%D7%99%D7%A0%D7%92%D7%A8) [Aizehu Bain Hashmashos](https://www.nli.org.il/he/books/NNL_ALEPH997010042055805171/NLI) and [Rabbi Yehuda (Leo) Levi's](https://en.wikipedia.org/wiki/Yehuda_(Leo)_Levi) calculations in [Zmanei Hayom BaHalacha](https://www.nli.org.il/en/items/NNL_ALEPH990022548970205171/NLI).
+This is based on [Rav Yechiel Michel Shlezinger's](https://he.wikipedia.org/wiki/%D7%99%D7%97%D7%99%D7%90%D7%9C_%D7%9E%D7%99%D7%9B%D7%9C_%D7%A9%D7%9C%D7%96%D7%99%D7%A0%D7%92%D7%A8) sefer [Aizehu Bain Hashmashos](https://www.nli.org.il/he/books/NNL_ALEPH997010042055805171/NLI) and [Rabbi Yehuda (Leo) Levi's](https://en.wikipedia.org/wiki/Yehuda_(Leo)_Levi) calculations in [Zmanei Hayom BaHalacha](https://www.nli.org.il/en/items/NNL_ALEPH990022548970205171/NLI).
 
-At the pace of a 24-minute mil, 49 amos would take 35.28 seconds to walk.
+At this point, 3 medium-sized stars are visible to a non-expert with good vision with effort. An expert who knows where to look can see the 3 medium stars as early as 15 minutes after sunset.
 
-An expert who knows where to look can see the 3 medium stars as early as 15 minutes after sunset.
+This is described as an early zman for tzais and should not be relied on without Rabbinical guidance.
 
-Hazmanim Bahalacha is cited as explaining that medium-sized stars would be visible as early as 14 minutes after sunset to an expert, based on 13.5 minutes for 3/4 of an 18-minute mil plus 0.5 minutes for bain hashmashos of Rav Yosi.
-
-In northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, the sun may not reach low enough below the horizon, so this time may not be available or cannot be calculated.
+The time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzaisGeonim4Point8Degrees`
@@ -95,21 +97,19 @@ In northern and southern locations, even south of the Arctic Circle and north of
 
 ## Tzais Geonim 5 Point 95 Degrees
 
-Tzais, or nightfall, according to the Geonim, using the point when the sun is 5.95° below the geometric zenith. This is calculated as the sun’s position 24 minutes after sunset in Jerusalem around the [equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/).
+Tzais, or nightfall, according to the Geonim, based on the sun being 5.95° below geometric zenith.
 
-The 24 minutes is based on the Baal Hatanya’s calculation of 18 minutes, which is 3/4 of a 24-minute mil, plus 4 minutes for shkiah amitis and 2 minutes for bain hashmashos of Rav Yosi.
+This is calculated as the sun’s position 24 minutes after sunset in Jerusalem [around the equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/). The 24 minutes is based on the Baal Hatanya’s calculation of 18 minutes, which is 3/4 of a 24-minute mil, plus 4 minutes for shkiah amitis, plus 2 minutes for bain hashmashos of Rav Yosi.
 
-Sources cited include Hazmanim Bahalacha and Yisrael Vehazmanim [Vol III, ch. 13, no. 53, p. 1026](https://hebrewbooks.org/pdfpager.aspx?req=9764&st=&pgnum=266).
-
-Among the sources mentioned for this zman are [Rabbi Yehuda (Leo) Levi's](https://en.wikipedia.org/wiki/Yehuda_(Leo)_Levi) calculations in Jewish Chrononomy and other sources.
+Sources mentioned include [Yisrael Vehazmanim Vol III, ch. 13, no. 53, p. 1026](https://hebrewbooks.org/pdfpager.aspx?req=9764&st=&pgnum=266) and [Rabbi Yehuda (Leo) Levi's](https://en.wikipedia.org/wiki/Yehuda_(Leo)_Levi) calculations in Jewish Chrononomy and other sources.
 
 Calculations show that the time is closer to 5.93° and was seemingly rounded to 5.95°.
 
-Chabad calendars usually use a 6°-based Baal Hatanya time that is built on this same calculation.
+Chabad calendars usually use a 6°-based calculation that is built on this same calculation.
 
-Rabbi Yedidya Manet in [Zmanei HaHalacha Lema'aseh](https://www.nli.org.il/en/books/NNL_ALEPH002542826/NLI) lists 5.88°, which the source says appears to be a drop too early.
+Rabbi Yedidya Manet in [Zmanei HaHalacha Lema'aseh](https://www.nli.org.il/en/books/NNL_ALEPH002542826/NLI) lists 5.88°, which is described as appearing to be slightly too early.
 
-In northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, the sun may not reach low enough below the horizon, so this time may not be available or cannot be calculated.
+The time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzaisGeonim5Point95Degrees`
@@ -118,17 +118,21 @@ In northern and southern locations, even south of the Arctic Circle and north of
 
 ## Tzais Geonim 6 Point 45 Degrees
 
-Tzais, or nightfall, according to the Geonim, as calculated by [Rabbi Yechiel Michel Tucazinsky](https://en.wikipedia.org/wiki/Yechiel_Michel_Tucazinsky). It is described as the commonly used zman in Israel and is also used in the [Luach Itim Lebinah](https://www.worldcat.org/oclc/243303103).
+Tzais, or nightfall, according to the Geonim, as calculated by [Rabbi Yechiel Michel Tucazinsky](https://en.wikipedia.org/wiki/Yechiel_Michel_Tucazinsky), based on the sun being 6.45° below geometric zenith.
 
-It is based on the sun’s position no later than 31 minutes after sea-level sunset in Jerusalem. At the height of the summer solstice, 30.75 minutes after shkiah computes to 6.45° below the geometric zenith. The calculation is found in the [Birur Halacha Yoreh Deah 262](https://hebrewbooks.org/pdfpager.aspx?req=50536&st=&pgnum=51).
+This is based on the position of the sun no later than 31 minutes after sea-level sunset in Jerusalem. At the height of the summer solstice, calculations show that 30.75 minutes after shkiah corresponds to 6.45° below geometric zenith.
 
-The source notes that Birur Halacha shows Rabbi Tucazinsky’s sunset calculations, listed as 28 minutes in this case, were about 3 minutes later than reality.
+The Birur Halacha is described as showing that Rav Tucazinsky’s sunset calculations, listed as 28 minutes in this case, were about 3 minutes later than reality.
 
-This differs from the 6.1° or 6.2° calculation for Rabbi Tucazinsky’s time as calculated by Hazmanim Bahalacha.
+This calculation is found in [Birur Halacha Yoreh Deah 262](https://hebrewbooks.org/pdfpager.aspx?req=50536&st=&pgnum=51) and is described as the commonly used zman in Israel.
 
-Calculations show that 6.45° at the equinox is 26.5 minutes after shkiah around the [equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/).
+It is also used in the [Luach Itim Lebinah](https://www.worldcat.org/oclc/243303103).
 
-In northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, the sun may not reach low enough below the horizon, so this time may not be available or cannot be calculated.
+This differs from the 6.1° or 6.2° calculation for Rabbi Tucazinsky’s time as calculated by Hazmanim Bahalacha Vol II chapter 50:7.
+
+Calculations show that 6.45° at the equinox is 26.5 minutes after shkiah [around the equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/).
+
+The time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzaisGeonim6Point45Degrees`
@@ -137,19 +141,19 @@ In northern and southern locations, even south of the Arctic Circle and north of
 
 ## Tzais Geonim 7 Point 083 Degrees
 
-Tzais, or nightfall, according to the Geonim, when the sun is 7.083°, also written as 7° 5′, below the western horizon.
+Tzais, or nightfall, according to the Geonim, based on the sun being 7.083°, also written as 7° 5′, below the western horizon.
 
-This calculation is based on the observation of 3 medium-sized stars by Dr. Baruch (Berthold) Cohn in his luach [Tabellen enthaltend die Zeitangaben für den Beginn der Nacht und des Tages für die Breitengrade + 66 bis -38](https://sammlungen.ub.uni-frankfurt.de/freimann/content/titleinfo/983088), published in Strasbourg, France in 1899.
+This calculation is based on the observation of 3 medium-sized stars by Dr. Baruch Berthold Cohn in his calendar [Tabellen enthaltend die Zeitangaben für den Beginn der Nacht und des Tages für die Breitengrade + 66 bis -38](https://sammlungen.ub.uni-frankfurt.de/freimann/content/titleinfo/983088), published in Strasbourg, France in 1899.
 
 This calendar was very popular in Europe, and many other calendars based their tzais time on it.
 
-[Rav Dovid Tzvi Hoffman](https://en.wikipedia.org/wiki/David_Zvi_Hoffmann), in [שו״ת מלמד להועיל](https://hebrewbooks.org/1053), in an exchange of letters with Baruch Cohn in [Orach Chaim 30](https://hebrewbooks.org/pdfpager.aspx?req=1053&st=&pgnum=37), agreed to this zman, as did the שו״ת בני ציון and the [תנובת שדה](https://hebrewbooks.org/67373).
+[Rav Dovid Tzvi Hoffman](https://en.wikipedia.org/wiki/David_Zvi_Hoffmann), in [שו״ת מלמד להועיל](https://hebrewbooks.org/1053), agreed to this zman in an exchange of letters with Baruch Cohn in [Orach Chaim 30](https://hebrewbooks.org/pdfpager.aspx?req=1053&st=&pgnum=37), as did the שו״ת בני ציון and the [תנובת שדה](https://hebrewbooks.org/67373).
 
 It is very close to the time of the [מקור חסד](https://hebrewbooks.org/22044) of the Sefer chasidim.
 
-It is close to the sun’s position 30 minutes after sunset in Jerusalem around the [equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/), but not exact. The actual position of the sun 30 minutes after sunset in Jerusalem is 7.205° at the equilux and 7.199° at the equinox.
+It is close to the position of the sun 30 minutes after sunset in Jerusalem [around the equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/), but not exactly. The actual position of the sun 30 minutes after sunset in Jerusalem at the equilux is 7.205° and 7.199° at the equinox.
 
-In northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, the sun may not reach low enough below the horizon, so this time may not be available or cannot be calculated.
+The time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzaisGeonim7Point083Degrees`
@@ -158,13 +162,13 @@ In northern and southern locations, even south of the Arctic Circle and north of
 
 ## Tzais Geonim 7 Point 67 Degrees
 
-Tzais, nightfall, according to the Geonim, based on 45 minutes after sunset during the summer solstice in New York, when twilight is longest. Sources cited include [Igros Moshe Even Haezer 4, Ch. 4](https://hebrewbooks.org/pdfpager.aspx?req=921&pgnum=149) regarding tzais for krias Shema, Rabbi Heber's [Shaarei Zmanim](https://hebrewbooks.org/53000), [chapter 10 (page 87)](https://hebrewbooks.org/pdfpager.aspx?req=53055&pgnum=101) and [chapter 12 (page 108)](https://hebrewbooks.org/pdfpager.aspx?req=53055&pgnum=122), [Rabbi Simcha Bunim Cohen's](https://en.wikipedia.org/wiki/Simcha_Bunim_Cohen) [The radiance of Shabbos](https://www.worldcat.org/oclc/179728985), [Divrei Shalom Vol. III, chapter 75](https://hebrewbooks.org/pdfpager.aspx?req=1927&pgnum=90), and [Bais Av"i Vol. III, chapter 117](https://hebrewbooks.org/pdfpager.aspx?req=892&pgnum=431).
+Tzais, nightfall, based on the opinion of the Geonim, corresponding to 45 minutes after sunset during the summer solstice in New York, when twilight is longest. Sources mentioned include [Igros Moshe Even Haezer 4, Ch. 4](https://hebrewbooks.org/pdfpager.aspx?req=921&pgnum=149), Rabbi Heber's [Shaarei Zmanim](https://hebrewbooks.org/53000), [chapter 10 (page 87)](https://hebrewbooks.org/pdfpager.aspx?req=53055&pgnum=101), [chapter 12 (page 108)](https://hebrewbooks.org/pdfpager.aspx?req=53055&pgnum=122), Rabbi Simcha Bunim Cohen's [The radiance of Shabbos](https://www.worldcat.org/oclc/179728985), [Divrei Shalom Vol. III, chapter 75](https://hebrewbooks.org/pdfpager.aspx?req=1927&pgnum=90), and [Bais Av"i Vol. III, chapter 117](https://hebrewbooks.org/pdfpager.aspx?req=892&pgnum=431).
 
-Calculated as the time when the sun is 7.67° below sea level, corresponding to about 45 minutes after sunset during the summer solstice in New York.
+Calculated as the time when the sun is 7.67° below the western horizon, based on the sun’s position 45 minutes after sunset during the summer solstice in New York.
 
-This zman depends on the level of light; Rabbi Yaakov Shakow presented this degree-based calculation to [Rabbi Shmuel Kamenetsky](https://en.wikipedia.org/wiki/Shmuel_Kamenetsky), who agreed to it.
+Because this zman depends on the level of light, Rabbi Yaakov Shakow presented this degree-based calculation to [Rabbi Shmuel Kamenetsky](https://en.wikipedia.org/wiki/Shmuel_Kamenetsky), who agreed to it.
 
-In northern and southern locations, even some places south of the Arctic Circle or north of the Antarctic Circle, the sun may not go low enough below the horizon for this calculation, so the zman may not be available.
+The time may not be available in some northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzaisGeonim7Point67Degrees`
@@ -175,9 +179,9 @@ In northern and southern locations, even some places south of the Arctic Circle 
 
 Tzais, nightfall, based on the calculations used in the [Luach Itim Lebinah](https://www.worldcat.org/oclc/243303103) as the stringent time for tzais.
 
-Calculated as the time when the sun is 9.3° below sea level, below the western horizon.
+Calculated as the time when the sun is 9.3° below the western horizon.
 
-In northern and southern locations, even some places south of the Arctic Circle or north of the Antarctic Circle, the sun may not go low enough below the horizon for this calculation, so the zman may not be available.
+The time may not be available in some northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzaisGeonim9Point3Degrees`
@@ -186,13 +190,13 @@ In northern and southern locations, even some places south of the Arctic Circle 
 
 ## Tzais Geonim 9 Point 75 Degrees
 
-Tzais, nightfall, according to the Geonim, based on 60 minutes after sunset [around the equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/), the day that a solar hour is 60 minutes in New York. This is the opinion of [Rabbi Eliyahu Henkin](https://en.wikipedia.org/wiki/Yosef_Eliyahu_Henkin) and also follows the opinion of [Rabbi Shmuel Kamenetsky](https://en.wikipedia.org/wiki/Shmuel_Kamenetsky).
+Tzais, nightfall, based on the opinion of the Geonim, corresponding to 60 minutes after sunset [around the equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/), the day that a solar hour is 60 minutes in New York. This is the opinion of [Rabbi Eliyahu Henkin](https://en.wikipedia.org/wiki/Yosef_Eliyahu_Henkin) and also follows the opinion of [Rabbi Shmuel Kamenetsky](https://en.wikipedia.org/wiki/Shmuel_Kamenetsky).
 
-Calculated as the time when the sun is 9.75° below sea level, corresponding to about 60 minutes after sunset around the equinox or equilux in New York.
+Calculated as the time when the sun is 9.75° below the western horizon, based on the sun’s position 60 minutes after sunset around the equinox / equilux in New York.
 
 Rabbi Yaakov Shakow presented these degree-based times to Rabbi Shmuel Kamenetsky, who agreed to them.
 
-In northern and southern locations, even some places south of the Arctic Circle or north of the Antarctic Circle, the sun may not go low enough below the horizon for this calculation, so the zman may not be available.
+The time may not be available in some northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getTzaisGeonim9Point75Degrees`
@@ -203,9 +207,9 @@ In northern and southern locations, even some places south of the Arctic Circle 
 
 Tzais, nightfall, when the sun is 8.5° below the geometric horizon after sunset. Rabbi Meir Posen in the [Ohr Meir](https://www.worldcat.org/oclc/29283612) calculated this as the time when 3 small stars are visible, which is later than the required 3 medium stars.
 
-Calculated as the time when the sun is 8.5° below the geometric horizon, based on the sun’s position 36 minutes after sunset in Jerusalem [around the equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/).
+Calculated as the time when the sun is 8.5° below the geometric horizon. This is based on the sun’s position 36 minutes after sunset in Jerusalem [around the equinox / equilux](https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/).
 
-In northern and southern locations, even some places south of the Arctic Circle or north of the Antarctic Circle, the sun may not go low enough below the horizon for this calculation, so the zman may not be available.
+The time may not be available in some northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ZmanimCalendar.getTzaisGeonim8Point5Degrees`

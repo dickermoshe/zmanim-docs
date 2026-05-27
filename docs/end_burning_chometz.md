@@ -8,11 +8,11 @@
 
 The latest time for burning chametz on Erev Pesach according to the Baal Hatanya.
 
-Calculated as 5 seasonal hours into the day, where the day is measured from netz amiti, sunrise, to sunset according to the Baal Hatanya.
+This time is 5 hours into the day. The day is calculated from netz amiti, sunrise, to sunset, and the time is 5 Baal Hatanya proportional hours after netz amiti.
 
 This zman is only for Erev Pesach; on other days it may not be available.
 
-It may also be unavailable if the calculation cannot be made, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+The time may not be available if the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanBiurChametzBaalHatanya`
@@ -23,11 +23,11 @@ It may also be unavailable if the calculation cannot be made, such as in the Arc
 
 The latest time for burning chametz on Erev Pesach according to the opinion of the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon).
 
-Calculated as 5 seasonal hours into the day, where the day is measured from sea-level sunrise to sunset according to the GRA.
+This time is 5 hours into the day. The day is calculated from sunrise to sunset, and the time is 5 GRA proportional hours after sea-level sunrise.
 
 This zman is only for Erev Pesach; on other days it may not be available.
 
-It may also be unavailable if the calculation cannot be made, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+The time may not be available if the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanBiurChametzGRA`
@@ -36,13 +36,13 @@ It may also be unavailable if the calculation cannot be made, such as in the Arc
 
 ## Sof Zman Biur Chametz MGA 16 Point 1 Degrees
 
-The latest time for burning chametz on Erev Pesach according to the opinion of the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), using dawn and nightfall defined by the sun being 16.1° below the horizon.
+The latest time for burning chametz on Erev Pesach according to the opinion of the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), with dawn and nightfall defined by the sun being 16.1° below the horizon.
 
-Calculated as 5 seasonal hours after dawn, where the day is measured from dawn to nightfall, with both defined as 16.1° below sunrise or sunset.
+This time is 5 proportional hours after dawn. The day is calculated from dawn to nightfall, with both set at 16.1° below sunrise or sunset.
 
 This zman is only for Erev Pesach; on other days it may not be available.
 
-It may also be unavailable in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+The time may not be available if the calculation cannot be computed, such as in northern and southern locations even south of the Arctic Circle and north of the Antarctic Circle where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanBiurChametzMGA16Point1Degrees`
@@ -51,13 +51,13 @@ It may also be unavailable in northern and southern locations, even south of the
 
 ## Sof Zman Biur Chametz MGA 72 Minutes
 
-The latest time for burning chametz on Erev Pesach according to the opinion of the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), using dawn 72 minutes before sunrise and nightfall 72 minutes after sunset.
+The latest time for burning chametz on Erev Pesach according to the opinion of the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), with dawn 72 minutes before sunrise and nightfall 72 minutes after sunset.
 
-Calculated as 5 temporal hours after dawn, where the day is measured from dawn 72 minutes before sunrise to nightfall 72 minutes after sunset.
+This time is 5 proportional hours after dawn. The day is calculated from dawn 72 minutes before sunrise to nightfall 72 minutes after sunset.
 
 This zman is only for Erev Pesach; on other days it may not be available.
 
-It may also be unavailable if the calculation cannot be made, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+The time may not be available if the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanBiurChametzMGA72Minutes`
@@ -66,13 +66,13 @@ It may also be unavailable if the calculation cannot be made, such as in the Arc
 
 ## Sof Zman Biur Chametz MGA 72 Minutes Zmanis
 
-The latest time for burning chametz on Erev Pesach according to the opinion of the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), using dawn 72 zmanis minutes before sunrise and nightfall 72 zmanis minutes after sunset.
+The latest time for burning chametz on Erev Pesach according to the opinion of the [Magen Avraham (MGA)](https://en.wikipedia.org/wiki/Avraham_Gombiner), with dawn 72 zmanis minutes before sunrise and nightfall 72 zmanis minutes after sunset.
 
-Calculated as 5 temporal hours after dawn, where the day is measured from dawn 72 zmanis minutes before sunrise to nightfall 72 zmanis minutes after sunset.
+This time is 5 proportional hours after dawn. The day is calculated from dawn 72 zmanis minutes before sunrise to nightfall 72 zmanis minutes after sunset.
 
 This zman is only for Erev Pesach; on other days it may not be available.
 
-It may also be unavailable if the calculation cannot be made, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+The time may not be available if the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSofZmanBiurChametzMGA72MinutesZmanis`

@@ -8,9 +8,9 @@
 
 Mincha ketana according to the Magen Avraham, with the day beginning and ending when the sun is 16.1° below the horizon. It is described as the preferred earliest time to pray mincha according to the [Rambam](https://en.wikipedia.org/wiki/Maimonides) and others.
 
-Calculated as 9.5 solar hours after alos, using a day that starts at alos 16.1° and is divided into solar hours based on that calculation.
+Calculated as 9.5 solar hours after alos, using a day that begins at alos 16.1° and ends when the sun is 16.1° below the horizon.
 
-This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This time may not be available in northern or southern locations, even south of the Arctic Circle or north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getMinchaKetana16Point1Degrees`
@@ -21,9 +21,9 @@ This time may not be available in northern and southern locations, even south of
 
 Mincha ketana according to the Magen Avraham, with the day beginning 72 minutes before sunrise and ending 72 minutes after sunset. It is described as the preferred earliest time to pray mincha according to the [Rambam](https://en.wikipedia.org/wiki/Maimonides) and others.
 
-Calculated as 9.5 solar hours after alos, using alos 72 minutes before sunrise and a day based on that 72-minute calculation.
+Calculated as 9.5 solar hours after alos, using a day that begins 72 minutes before sunrise and ends 72 minutes after sunset.
 
-This time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one day when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getMinchaKetana72Minutes`
@@ -34,9 +34,9 @@ This time may not be available in places such as the Arctic Circle, where there 
 
 Mincha ketana based on the opinion of [Rabbi Yaakov Moshe Hillel](https://en.wikipedia.org/wiki/Yaakov_Moshe_Hillel), as published in the luach of the Bais Horaah of Yeshivat Chevrat Ahavat Shalom. It is described as the preferred earliest time to pray mincha according to the [Rambam](https://en.wikipedia.org/wiki/Maimonides) and others.
 
-Calculated as 2.5 shaos zmaniyos before tzais 3.8°, with shaos zmaniyos based on a day from alos 16.1° until tzais 3.8°.
+Calculated as 2.5 shaos zmaniyos before tzais at 3.8°, with shaos zmaniyos based on a day that begins at alos 16.1° and ends at tzais 3.8°.
 
-This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This time may not be available in northern or southern locations, even south of the Arctic Circle or north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getMinchaKetanaAhavatShalom`
@@ -47,11 +47,11 @@ This time may not be available in northern and southern locations, even south of
 
 Mincha ketana based on the calculation of Chacham Yosef Harari-Raful of Yeshivat Ateret Torah. It is described as the preferred earliest time to pray mincha according to the [Rambam](https://en.wikipedia.org/wiki/Maimonides) and others.
 
-Calculated as 9.5 solar hours after alos. In this calculation, the day starts 1/10th of the day before sunrise and usually ends 40 minutes after sunset.
+Calculated as 9.5 solar hours after alos. The day begins 1/10th of the day before sunrise and usually ends 40 minutes after sunset.
 
-The end of the day is usually 40 minutes after sunset, but it can be configured to a different sunset offset.
+The end of the day is usually 40 minutes after sunset, but may depend on a configurable sunset offset.
 
-This time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one day when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getMinchaKetanaAteretTorah`
@@ -62,9 +62,9 @@ This time may not be available in places such as the Arctic Circle, where there 
 
 Mincha ketana according to the Baal Hatanya. It is described as the preferred earliest time to pray mincha according to the [Rambam](https://en.wikipedia.org/wiki/Maimonides) and others.
 
-Calculated as 9.5 sea-level solar hours after netz amiti, sunrise. This follows the Baal Hatanya’s view that the day is calculated from sunrise to sunset.
+Calculated as 9.5 sea-level solar hours after netz amiti, sunrise, based on a day from sunrise to sunset.
 
-This time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one day when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getMinchaKetanaBaalHatanya`
@@ -73,11 +73,11 @@ This time may not be available in places such as the Arctic Circle, where there 
 
 ## Mincha Ketana GRAFixed Local Chatzos To Sunset
 
-Mincha ketana according to [Rav Moshe Feinstein](https://en.wikipedia.org/wiki/Moshe_Feinstein), calculated according to the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon). It is described as the preferred time to recite the mincha prayers according to the [Rambam](https://en.wikipedia.org/wiki/Maimonides) and others.
+[Rav Moshe Feinstein's](https://en.wikipedia.org/wiki/Moshe_Feinstein) calculation of mincha ketana, the preferred time to recite the mincha prayers according to the [Rambam](https://en.wikipedia.org/wiki/Maimonides) and others, calculated according to the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon).
 
 Calculated as 3.5 shaos zmaniyos, solar hours, after fixed local chatzos.
 
-This time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
+This time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one day when it does not set.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getMinchaKetanaGRAFixedLocalChatzosToSunset`
@@ -86,11 +86,11 @@ This time may not be available in places such as the Arctic Circle, where there 
 
 ## Samuch Le Mincha Ketana 16 Point 1 Degrees
 
-Samuch lemincha ketana, meaning near mincha ketana, is the time before mincha when eating or other activity cannot begin before praying mincha. The source cites the [Mechaber and Mishna Berurah 232](https://hebrewbooks.org/pdfpager.aspx?req=60387&st=&pgnum=294) and [249:2](https://hebrewbooks.org/pdfpager.aspx?req=60388&pgnum=34).
+Samuch lemincha ketana, meaning near mincha ketana, is the time before mincha when eating or other activity cannot begin before praying mincha. The sources cited are [Mechaber and Mishna Berurah 232](https://hebrewbooks.org/pdfpager.aspx?req=60387&st=&pgnum=294) and [249:2](https://hebrewbooks.org/pdfpager.aspx?req=60388&pgnum=34).
 
-Calculated as half an hour before mincha ketana, or as 9 shaos zmaniyos after the start of the day. In this version, the calculation uses 9 solar hours after alos 16.1°, based on a day beginning at alos 16.1° and ending at tzais 16.1°.
+Calculated as half an hour before mincha ketana, or as 9 shaos zmaniyos after the start of the day, using a day that begins at alos 16.1° and ends at tzais 16.1°.
 
-This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This time may not be available in northern or southern locations, even south of the Arctic Circle or north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSamuchLeMinchaKetana16Point1Degrees`
@@ -99,11 +99,11 @@ This time may not be available in northern and southern locations, even south of
 
 ## Samuch Le Mincha Ketana 72 Minutes
 
-Samuch lemincha ketana, meaning near mincha ketana, is the time before mincha when eating or other activity cannot begin before praying mincha. The source cites the [Mechaber and Mishna Berurah 232](https://hebrewbooks.org/pdfpager.aspx?req=60387&st=&pgnum=294) and [249:2](https://hebrewbooks.org/pdfpager.aspx?req=60388&pgnum=34).
+Samuch lemincha ketana, meaning near mincha ketana, is the time before mincha when eating or other activity cannot begin before praying mincha. The sources cited are [Mechaber and Mishna Berurah 232](https://hebrewbooks.org/pdfpager.aspx?req=60387&st=&pgnum=294) and [249:2](https://hebrewbooks.org/pdfpager.aspx?req=60388&pgnum=34).
 
-Calculated as half an hour before mincha ketana, or as 9 shaos zmaniyos after the start of the day. In this version, the calculation uses 9 solar hours after alos 72 minutes, based on a day beginning at alos 72 minutes and ending at tzais 72 minutes.
+Calculated as half an hour before mincha ketana, or as 9 shaos zmaniyos after the start of the day, using a day that begins at alos 72 minutes and ends at tzais 72 minutes.
 
-This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
+This time may not be available in northern or southern locations, even south of the Arctic Circle or north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSamuchLeMinchaKetana72Minutes`
@@ -114,11 +114,11 @@ This time may not be available in northern and southern locations, even south of
 
 Samuch lemincha ketana is the time near mincha ketana, half an hour before mincha ketana. It is described as the time before which eating or other activity cannot begin prior to praying mincha.
 
-It is calculated as 9 shaos zmaniyos, or solar hours, after the start of the day, according to the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon). The day starts at sunrise and ends at sunset. The sunrise used may be elevation-adjusted, depending on the elevation setting.
+It is calculated as 9 shaos zmaniyos, or solar hours, after the start of the day, according to the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon). The day starts at sunrise and ends at sunset. Sunrise may be elevation-adjusted depending on the elevation setting.
 
-See the [Mechaber and Mishna Berurah 232](https://hebrewbooks.org/pdfpager.aspx?req=60387&st=&pgnum=294) and [249:2](https://hebrewbooks.org/pdfpager.aspx?req=60388&pgnum=34).
+The source references the [Mechaber and Mishna Berurah 232](https://hebrewbooks.org/pdfpager.aspx?req=60387&st=&pgnum=294) and [249:2](https://hebrewbooks.org/pdfpager.aspx?req=60388&pgnum=34).
 
-This zman may not be available if the calculation cannot be computed, such as in northern or southern locations even south of the Arctic Circle and north of the Antarctic Circle where the sun may not reach low enough below the horizon for this calculation.
+This zman may not be available where the calculation cannot be computed, such as northern and southern locations even south of the Arctic Circle and north of the Antarctic Circle where the sun may not reach low enough below the horizon for this calculation.
 
 ??? info "Technical details"
     Source method: `ComprehensiveZmanimCalendar.getSamuchLeMinchaKetanaGRA`
@@ -127,11 +127,11 @@ This zman may not be available if the calculation cannot be computed, such as in
 
 ## Mincha Ketana GRA
 
-Mincha ketana is the preferred earliest time to pray mincha according to the [Rambam](https://en.wikipedia.org/wiki/Maimonides) and others.
+Mincha ketana is the preferred earliest time to pray mincha according to the opinion of the [Rambam](https://en.wikipedia.org/wiki/Maimonides) and others.
 
-It is calculated as 9.5 shaos zmaniyos, or solar hours, after sunrise, according to the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon). The day is calculated from sunrise to sunset, using either sea-level sunrise and sea-level sunset or regular sunrise and sunset, depending on the elevation setting.
+It is calculated as 9.5 shaos zmaniyos, or solar hours, after sunrise, according to the [GRA](https://en.wikipedia.org/wiki/Vilna_Gaon). The day is calculated either from sea-level sunrise to sea-level sunset or from sunrise to sunset, depending on the elevation setting.
 
-This zman may not be available if the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.
+This zman may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.
 
 ??? info "Technical details"
     Source method: `ZmanimCalendar.getMinchaKetanaGRA`
