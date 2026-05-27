@@ -3,48 +3,20 @@
 User-facing documentation for KosherJava zmanim, generated from raw Javadoc and built with Zensical.
 
 ## Generate Docs
-
-The workflow has five steps:
-
-1. Extract raw Javadoc into JSON:
-
-   ```powershell
-   uv run python tools/parse-javadoc.py --source "..\kosher-java\src\main\java" --pretty
-   ```
-
-   This writes `methods.json`.
-
-2. Generate user-facing content JSON with GPT:
-
-   ```powershell
-   uv run python tools/generate-docs.py generate-json
-   ```
-
-   This writes `generated-docs.json`. It reads `OPENAI_API_KEY` from the environment, or `OPENAI-KEY` from `tools/.env`. It defaults to `gpt-5.5`; override that with `OPENAI_MODEL` or `--model`. It uses the same seed and low reasoning effort for every run by default; override them with `--seed` and `--reasoning-effort`. It writes a local `docs-generation-report.json` with category counts, skipped items, and any partial generation warnings. Each model batch is scheduled concurrently with `asyncio`.
-
-3. Render Markdown from the generated JSON:
-
-   ```powershell
-   uv run python tools/generate-docs.py render-md
-   ```
-
-   The renderer writes category pages at the docs root, such as `docs/alos.md` and `docs/astronomical_dawn.md`. It does not write `docs/index.md`; the main index is maintained by hand.
-
-4. Build the site:
-
-   ```powershell
-   uv run zensical build --clean
-   ```
-
-5. Deploy with `mike`, then push to GitHub:
-
-   ```powershell
-   uv run mike deploy VERSION latest
-   git push origin gh-pages
-   ```
-
-   Replace `VERSION` with the KosherJava version being documented.
-
+```powershell
+# Pull changes from KosherJava
+git subtree pull --prefix=kosher-java https://github.com/KosherJava/zmanim master  --squash
+# Parse Javadoc
+uv run python tools/parse-javadoc.py
+# Generate Docs to generated-docs.json
+uv run python tools/generate-docs.py generate-json
+# Render Markdown to docs/
+uv run python tools/generate-docs.py render-md
+# Deploy with mike
+uv run mike deploy latest
+# Push to GitHub
+git push origin gh-pages
+```
 ## Generation Rules
 
 The generated explanations are intentionally limited to the raw Javadoc stored in `docs.raw`. The parser does not split the Javadoc into summary, return, link, or tag fields; it passes the raw block through so the GPT model can rewrite source-backed text into clearer user-facing prose. Deprecated zmanim remain included with warnings, and settings such as offsets or elevation are documented only when the raw Javadoc supports them.
