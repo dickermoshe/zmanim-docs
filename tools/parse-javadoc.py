@@ -1,9 +1,7 @@
 from __future__ import annotations
 
 import argparse
-import html
 import json
-import re
 from pathlib import Path
 from typing import Any
 
@@ -17,11 +15,6 @@ JAVA_LANGUAGE = Language(tree_sitter_java.language())
 JAVA_PARSER = Parser()
 JAVA_PARSER.language = JAVA_LANGUAGE
 
-TAG_RE = re.compile(r"^@(\w+)\s*(.*)")
-INLINE_TAG_RE = re.compile(r"\{@(\w+)\s+([^{}]*)\}")
-HTML_TAG_RE = re.compile(r"</?[^>]+>")
-
-
 def strip_java_noise(line: str) -> str:
     stripped = line.strip()
     if stripped.startswith("/**"):
@@ -33,62 +26,6 @@ def strip_java_noise(line: str) -> str:
         if stripped.startswith(" "):
             stripped = stripped[1:]
     return stripped.rstrip()
-
-
-def normalize_spaces(text: str) -> str:
-    return re.sub(r"\s+", " ", text).strip()
-
-
-def inline_tag_text(match: re.Match[str]) -> str:
-    tag_name = match.group(1)
-    content = normalize_spaces(match.group(2))
-    if tag_name in {"code", "literal"}:
-        return content
-
-    # For links, prefer the user-facing label when one is present.
-    parts = content.split()
-    if tag_name in {"link", "linkplain", "value"} and len(parts) > 1:
-        return " ".join(parts[1:])
-    return content
-
-
-def clean_doc_text(text: str) -> str:
-    text = INLINE_TAG_RE.sub(inline_tag_text, text)
-    text = HTML_TAG_RE.sub("", text)
-    return normalize_spaces(html.unescape(text))
-
-
-def first_sentence(text: str) -> str:
-    if not text:
-        return ""
-    match = re.search(r"(?<=[.!?])\s+", text)
-    if match is None:
-        return text
-    return text[: match.start()].strip()
-
-
-def unwrap_summary(text: str) -> tuple[str | None, str]:
-    start = text.find("{@summary")
-    if start == -1:
-        return None, text
-
-    content_start = start + len("{@summary")
-    index = content_start
-    depth = 1
-    while index < len(text):
-        if text.startswith("{@", index):
-            depth += 1
-            index += 2
-            continue
-        if text[index] == "}":
-            depth -= 1
-            if depth == 0:
-                summary = text[content_start:index].strip()
-                unwrapped = f"{text[:start]}{summary}{text[index + 1 :]}"
-                return summary, unwrapped
-        index += 1
-
-    return None, text
 
 
 def relative_path(path: Path) -> str:
@@ -202,44 +139,7 @@ def preceding_javadoc(method: Node, source: bytes) -> list[str]:
 def parse_javadoc(lines: list[str]) -> dict[str, Any]:
     cleaned_lines = [strip_java_noise(line) for line in lines]
     raw_text = "\n".join(cleaned_lines).strip()
-
-    main_lines: list[str] = []
-    tags: dict[str, list[str]] = {}
-    current_tag: str | None = None
-
-    for line in cleaned_lines:
-        tag_match = TAG_RE.match(line)
-        if tag_match:
-            current_tag = tag_match.group(1)
-            tags.setdefault(current_tag, []).append(tag_match.group(2).strip())
-        elif current_tag is not None and line:
-            tags[current_tag][-1] = f"{tags[current_tag][-1]} {line}".strip()
-        elif current_tag is None:
-            main_lines.append(line)
-        elif not line:
-            current_tag = None
-
-    main_text = "\n".join(main_lines).strip()
-    summary_text, main_text = unwrap_summary(main_text)
-    description = clean_doc_text(main_text)
-    summary = (
-        clean_doc_text(summary_text) if summary_text else first_sentence(description)
-    )
-
-    parsed_tags = {
-        tag: [clean_doc_text(value) for value in values if clean_doc_text(value)]
-        for tag, values in tags.items()
-    }
-
-    return {
-        "summary": summary,
-        "description": description,
-        "return": (parsed_tags.get("return") or [""])[0],
-        "deprecated": (parsed_tags.get("deprecated") or [""])[0],
-        "see": parsed_tags.get("see", []),
-        "tags": parsed_tags,
-        "raw": clean_doc_text(raw_text),
-    }
+    return {"raw": raw_text}
 
 
 def parse_java_file(path: Path) -> list[dict[str, Any]]:
@@ -278,8 +178,7 @@ def parse_java_file(path: Path) -> list[dict[str, Any]]:
                 "return_type": node_text(method.child_by_field_name("type"), source),
                 "parameters": [],
                 "annotations": annotations,
-                "is_deprecated": bool(docs["deprecated"])
-                or any(
+                "is_deprecated": any(
                     annotation.startswith("@Deprecated") for annotation in annotations
                 ),
                 "docs": docs,
@@ -290,15 +189,7 @@ def parse_java_file(path: Path) -> list[dict[str, Any]]:
 
 
 def empty_docs() -> dict[str, Any]:
-    return {
-        "summary": "",
-        "description": "",
-        "return": "",
-        "deprecated": "",
-        "see": [],
-        "tags": {},
-        "raw": "",
-    }
+    return {"raw": ""}
 
 
 def collect_methods(source: Path) -> list[dict[str, Any]]:

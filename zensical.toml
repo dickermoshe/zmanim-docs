@@ -44,10 +44,33 @@ Copyright &copy; 2026 Eliyahu Hershfeld
 # can be defined using TOML syntax.
 #
 # Read more: https://zensical.org/docs/setup/navigation/
-# nav = [
-#   { "Get started" = "index.md" },
-#   { "Markdown in 5min" = "markdown.md" },
-# ]
+nav = [
+  { "Home" = "index.md" },
+  { "Zmanim" = [
+    { "Alos HaShachar" = "alos.md" },
+    { "Astronomical Dawn" = "astronomical_dawn.md" },
+    { "Misheyakir" = "mishayakir.md" },
+    { "Netz HaChamah" = "sunrise.md" },
+    { "Sof Zman Shema" = "end_shema.md" },
+    { "Sof Zman Tefilla" = "end_tefilla.md" },
+    { "Sof Zman Achilas Chametz" = "end_eating_chometz.md" },
+    { "Sof Zman Biur Chametz" = "end_burning_chometz.md" },
+    { "Chatzos Hayom" = "midday.md" },
+    { "Mincha Gedola" = "mincha_gedola.md" },
+    { "Mincha Ketana" = "mincha_ketana.md" },
+    { "Plag Mincha" = "plag_mincha.md" },
+    { "Candle Lighting" = "candle_lighting.md" },
+    { "Sunset" = "sunset.md" },
+    { "Bein Hashmashos" = "bein_hashmashos.md" },
+    { "Tzais Geonim" = "tzais_geonim.md" },
+    { "Tzais" = "tzais.md" },
+    { "Astronomical Twilight" = "astronomical_twilight.md" },
+    { "Midnight" = "midnight.md" },
+    { "Kidush Levana" = "kidush_levana.md" },
+  ] },
+
+  # { "Markdown in 5min" = "markdown.md" },
+]
 
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
@@ -303,6 +326,9 @@ toggle.name = "Switch to light mode"
 #[[project.extra.social]]
 #icon = "fontawesome/brands/github"
 #link = "https://github.com/user/repo"
+
+[project.extra.version]
+provider = "mike"
 
 # ----------------------------------------------------------------------------
 # In this section you can configure the Markdown extensions that are used when

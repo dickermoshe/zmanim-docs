@@ -169,6 +169,10 @@ venv.bak/
 # mkdocs documentation
 /site
 
+# Local docs generation reports
+/docs-generation-report.json
+/generated-docs.json
+
 # mypy
 .mypy_cache/
 .dmypy.json
@@ -218,3 +222,4 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+*.json
