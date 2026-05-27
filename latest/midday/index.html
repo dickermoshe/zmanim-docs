@@ -1191,19 +1191,19 @@
 </details>
 <h2 id="chatzos-hayom_1">Chatzos Hayom<a class="headerlink" href="#chatzos-hayom_1" title="Permanent link">&para;</a></h2>
 <p>Chatzos hayom is calculated either as astronomical chatzos or as the halfway point between sunrise and sunset, depending on the available calculation and whether astronomical chatzos is being used. See <a href="https://kosherjava.com/2020/07/02/definition-of-chatzos/">The Definition of Chatzos</a> for a detailed explanation of the ways to calculate chatzos.</p>
-<p>When astronomical chatzos is supported and enabled, it uses astronomical chatzos. Otherwise, it uses the halfway point between sunrise and sunset. The USNO-style calculation uses halfway between sunrise and sunset, identical to six shaos zmaniyos after sunrise, while the NOAA calculation uses the more accurate astronomical chatzos.</p>
-<p>In the Arctic, halfway-between-sunrise-and-sunset chatzos may not be available on a day when either sunrise or sunset did not happen. If that happens and astronomical chatzos is supported, astronomical chatzos is used instead.</p>
-<p>The time may not be available in places such as the Arctic Circle, where there is at least one day when the sun does not rise and one when it does not set, if the calculation being used does not support astronomical chatzos.</p>
+<p>When astronomical chatzos is supported and enabled, it uses astronomical chatzos. Otherwise, it uses the halfway point between sunrise and sunset. The USNO-style calculation uses halfway between sunrise and sunset, identical to six shaos zmaniyos after sunrise, while the NOAA calculation calculates astronomical chatzos more accurately.</p>
+<p>In the Arctic, half-day chatzos may not be available on a day when either sunrise or sunset did not happen. If half-day chatzos cannot be calculated and astronomical chatzos is supported, astronomical chatzos is used instead.</p>
+<p>The time may not be available in cases such as the Arctic Circle, where there is at least one day when the sun does not rise and one when it does not set, if astronomical calculations are not supported.</p>
 <details class="info">
 <summary>Technical details</summary>
 <p>Source method: <code>ZmanimCalendar.getChatzosHayom</code></p>
 <p>Technical reference: <code>com.kosherjava.zmanim.ZmanimCalendar.getChatzosHayom</code></p>
 </details>
 <h2 id="chatzos-hayom-as-half-day">Chatzos Hayom As Half Day<a class="headerlink" href="#chatzos-hayom-as-half-day" title="Permanent link">&para;</a></h2>
-<p>This is chatzos calculated as halfway between sunrise and sunset. Many are of the opinion that chatzos is calculated as the midpoint between sea-level sunrise and sea-level sunset, despite this not being the most accurate way to calculate it. See <a href="https://kosherjava.com/2020/07/02/definition-of-chatzos/">The Definition of Chatzos</a> for a detailed explanation of the ways to calculate chatzos.</p>
-<p>It is calculated as halfway between sea-level sunrise and sea-level sunset, equivalent to six shaos zmaniyos after sunrise. A day starting at alos and ending at tzais using the same time or degree offset will also produce the same time. Because the day may be lengthening or shortening, this is not necessarily the exact midpoint of the day, but it is very close.</p>
-<p>The SunTimes calculation calculates chatzos as halfway between sunrise and sunset, while the NOAA calculation calculates astronomical chatzos, which is described as slightly more accurate.</p>
-<p>The time may not be available when the calculation cannot be computed, such as in the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.</p>
+<p>This is chatzos calculated as halfway between sunrise and sunset. Many are of the opinion that chatzos is calculated as the midpoint between sea-level sunrise and sea-level sunset, despite it not being the most accurate way to calculate it. See <a href="https://kosherjava.com/2020/07/02/definition-of-chatzos/">The Definition of Chatzos</a> for a detailed explanation of the ways to calculate chatzos.</p>
+<p>It is calculated as the midpoint between sea-level sunrise and sea-level sunset, which is also six shaos zmaniyos after sunrise. A day starting at alos and ending at tzais using the same time or degree offset will also produce the same time. Because the day may be lengthening or shortening, this is not necessarily the exact midpoint of the day, but it is very close.</p>
+<p>The SunTimes calculation calculates chatzos this way, while the NOAA calculation calculates astronomical chatzos, which is slightly more accurate; this option allows the halfway-between-sunrise-and-sunset calculation even when using the NOAA calculation.</p>
+<p>The time may not be available in cases such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.</p>
 <details class="info">
 <summary>Technical details</summary>
 <p>Source method: <code>ZmanimCalendar.getChatzosHayomAsHalfDay</code></p>

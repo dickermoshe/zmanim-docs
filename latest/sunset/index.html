@@ -1150,32 +1150,31 @@
 <h1 id="sunset">Sunset<a class="headerlink" href="#sunset" title="Permanent link">&para;</a></h1>
 <p><a href="../">Back to all zmanim</a></p>
 <h2 id="sea-level-sunset">Sea Level Sunset<a class="headerlink" href="#sea-level-sunset" title="Permanent link">&para;</a></h2>
-<p>Sunset calculated as if the location were at sea level, without any elevation adjustment. It is used as the base for dusk calculations that are based on the sun dipping below the horizon after sunset.</p>
-<p>Calculated at sea level, without an elevation adjustment.</p>
+<p>Sunset calculated as if the location were at sea level, without an elevation adjustment.</p>
+<p>This is the sea-level sunset time. It is used as the base for dusk calculations that are calculated as a dip below the horizon after sunset.</p>
 <p>Non-sunrise and sunset calculations such as dawn and dusk depend on visible light, which is not affected by elevation.</p>
-<p>This time may not be available if the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.</p>
+<p>This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.</p>
 <details class="info">
 <summary>Technical details</summary>
 <p>Source method: <code>AstronomicalCalendar.getSeaLevelSunset</code></p>
 <p>Technical reference: <code>com.kosherjava.zmanim.AstronomicalCalendar.getSeaLevelSunset</code></p>
 </details>
 <h2 id="sunset_1">Sunset<a class="headerlink" href="#sunset_1" title="Permanent link">&para;</a></h2>
-<p>The exact sunset time, adjusted for elevation.</p>
-<p>Calculated using a geometric zenith of 90° plus an elevation adjustment. The calculation is also adjusted by approximately 50/60 of a degree, accounting for 34 arcminutes of refraction and 16 arcminutes for the sun’s radius, for a total of 90.83333°.</p>
-<p>In certain cases, the calculated sunset can occur before sunrise. This typically happens when a time zone other than the local time zone is used; in that case, the sunset date is moved to the following date.</p>
-<p>This time may not be available if the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.</p>
+<p>The elevation-adjusted sunset time.</p>
+<p>The calculation uses the geometric zenith of 90° plus an elevation adjustment. It is further adjusted by about 50/60 of a degree: 34 arcminutes for refraction and 16 arcminutes for the sun’s radius, for a total of 90.83333°.</p>
+<p>In certain cases, the calculated sunset can occur before sunrise. This will typically happen when a time zone other than the local time zone is used, such as calculating Los Angeles sunset using a GMT time zone. In this case, the sunset date is moved to the following date.</p>
+<p>This time may not be available when the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.</p>
 <details class="info">
 <summary>Technical details</summary>
 <p>Source method: <code>AstronomicalCalendar.getSunset</code></p>
 <p>Technical reference: <code>com.kosherjava.zmanim.AstronomicalCalendar.getSunset</code></p>
 </details>
 <h2 id="sunset-or-westernmost-solar-azimuth">Sunset Or Westernmost Solar Azimuth<a class="headerlink" href="#sunset-or-westernmost-solar-azimuth" title="Permanent link">&para;</a></h2>
-<p>Sunset, when sunset occurs. If sunset does not occur that day, this is the time when the sun is at its westernmost position, at azimuth 270°.</p>
-<p>If sunset occurs, it uses sunset. If sunset does not occur, it uses the time the sun reaches azimuth 270°. This time is close to six hours after astronomical chatzos hayom, but depending on the time of year and location in the Arctic or Antarctic, it can be up to 46 minutes before or after that time.</p>
-<p>In Polar regions, the Arctic or Antarctic circles, there are days with no sunrise or sunset. There are opinions that during these periods, the day-night boundary is when the sun is at its westernmost position.</p>
-<p>In this opinion, sunrise is when the sun is at azimuth 90°, its easternmost position.</p>
+<p>Sunset if it occurs, or otherwise the time when the sun is at its westernmost position, an azimuth of 270°.</p>
+<p>In polar regions, the Arctic or Antarctic circles, there are days with no sunrise or sunset. For those periods, some opinions treat the day-night boundary as the time when the sun is at its westernmost position. This time is close to six hours after astronomical chatzos hayom, but depending on the time of year and location in the Arctic or Antarctic, it can be up to 46 minutes before or after that time.</p>
+<p>The corresponding sunrise in this opinion is when the sun is at azimuth 90°, its easternmost position.</p>
 <p>This is the opinion of <a href="https://en.wikipedia.org/wiki/Joseph_Schwarz_(geographer)">Rabbi Yehosef Schwarz</a> in <a href="https://hebrewbooks.org/pdfpager.aspx?req=31703&amp;pgnum=134">דברי יוסף – דרך מבוא השמש</a> and <a href="https://hebrewbooks.org/pdfpager.aspx?req=159&amp;pgnum=83">דברי יוסף – תשובות, שאלה ח׳</a>. This is brought down lehalacha by the <a href="https://en.wikipedia.org/wiki/Yosef_Hayyim">Ben Ish Chai</a> in <a href="https://hebrewbooks.org/pdfpager.aspx?req=1401&amp;pgnum=461">רב פעלים – חלק ב׳, סוד ישרים ס׳ ד׳</a>.</p>
-<p>If there is no sunset that day and azimuth 270° also does not occur, this time may not be available.</p>
+<p>If there is no sunset on that day and the sun does not reach azimuth 270°, this time may not be available.</p>
 <details class="info">
 <summary>Technical details</summary>
 <p>Source method: <code>ComprehensiveZmanimCalendar.getSunsetOrWesternmostSolarAzimuth</code></p>

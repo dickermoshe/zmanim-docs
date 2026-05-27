@@ -1414,81 +1414,80 @@
 <h1 id="alos-hashachar">Alos HaShachar<a class="headerlink" href="#alos-hashachar" title="Permanent link">&para;</a></h1>
 <p><a href="../">Back to all zmanim</a></p>
 <h2 id="alos-120-minutes">Alos 120 Minutes<a class="headerlink" href="#alos-120-minutes" title="Permanent link">&para;</a></h2>
-<p>Deprecated as a warning that this is a very early time. It should be used lechumra only, because using it lekula can result in doing mitzvos hayom too early according to most opinions.</p>
-<p>Alos, or dawn, according to a very early 120-minute calculation. It should be used lechumra only, such as stopping eating at this time on a fast day, and not as the start time for mitzvos that can only be performed during the day.</p>
-<p>Calculated as 120 minutes before sunrise, or before sea-level sunrise depending on the elevation setting. It is based on the time to walk 5 mil at 24 minutes per mil, following the view that the neshef, the time between dawn and sunrise, does not vary by season or location but depends on the time needed to walk 5 mil.</p>
-<p>The calculation may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.</p>
-<p>The mil mentioned here refers to a <a href="https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement">mil</a>.</p>
-<p>This time depends on whether elevation is used.</p>
+<p>Deprecated because this is a very early time and should be used only lechumra, such as stopping eating at this time on a fast day. Using it lekula can result in doing mitzvos hayom too early according to most opinions.</p>
+<p>Alos, dawn, according to a very early 120-minute opinion. It should be used only lechumra, such as stopping eating at this time on a fast day, and not as the start time for mitzvos that can only be performed during the day.</p>
+<p>Calculated as 120 minutes before sunrise, or before sea-level sunrise, depending on the elevation setting. It is based on the time to walk 5 mil at 24 minutes per mil, following the opinion of the Rishonim that the neshef, the time between dawn and sunrise, does not vary by season or location but depends on the walking time for 5 mil.</p>
+<p>The calculation depends on whether the elevation setting uses sunrise or sea-level sunrise.</p>
+<p>This time may not be available where the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.</p>
 <details class="info">
 <summary>Technical details</summary>
 <p>Source method: <code>ComprehensiveZmanimCalendar.getAlos120Minutes</code></p>
 <p>Technical reference: <code>com.kosherjava.zmanim.ComprehensiveZmanimCalendar.getAlos120Minutes</code></p>
 </details>
 <h2 id="alos-120-zmanis">Alos 120 Zmanis<a class="headerlink" href="#alos-120-zmanis" title="Permanent link">&para;</a></h2>
-<p>Deprecated as a warning that this is a very early time. It should be used lechumra only, because using it lekula can result in doing mitzvos hayom too early according to most opinions.</p>
-<p>Alos, or dawn, according to a very early calculation of 120 minutes zmaniyos, equal to &#8537; of the day, before sunrise. It should be used lechumra only, such as stopping eating at this time on a fast day, and not as the start time for mitzvos that can only be performed during the day.</p>
-<p>Calculated as two shaos zmaniyos before sunrise. It is based on a 24-minute <a href="https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement">mil</a>, so 5 mil equals 120 minutes, or &#8537; of a 12-hour day. The day is measured from sea-level sunrise to sea-level sunset, or from sunrise to sunset depending on the elevation setting.</p>
-<p>The calculation may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.</p>
-<p>This time depends on whether elevation is used.</p>
+<p>Deprecated because this is a very early time and should be used only lechumra, such as stopping eating at this time on a fast day. Using it lekula can result in doing mitzvos hayom too early according to most opinions.</p>
+<p>Alos, dawn, according to a very early opinion using 120 zmaniyos minutes, or one sixth of the day, before sunrise. It should be used only lechumra, such as stopping eating at this time on a fast day, and not as the start time for mitzvos that can only be performed during the day.</p>
+<p>Calculated as 120 zmaniyos minutes, equal to one sixth of the day, before sunrise or sea-level sunrise, depending on the elevation setting. It is based on a 24-minute mil, so 5 mil equal 120 minutes, or one sixth of a 12-hour day. The day is measured from sea-level sunrise to sea-level sunset, or from sunrise to sunset, depending on the elevation setting; the stated calculation is sunrise-based sunset minus two GRA shaos zmaniyos.</p>
+<p>The calculation depends on the elevation setting.</p>
+<p>This time may not be available where the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.</p>
 <details class="info">
 <summary>Technical details</summary>
 <p>Source method: <code>ComprehensiveZmanimCalendar.getAlos120Zmanis</code></p>
 <p>Technical reference: <code>com.kosherjava.zmanim.ComprehensiveZmanimCalendar.getAlos120Zmanis</code></p>
 </details>
 <h2 id="alos-18-degrees">Alos 18 Degrees<a class="headerlink" href="#alos-18-degrees" title="Permanent link">&para;</a></h2>
-<p>Alos, or dawn, defined by the sun’s position before sunrise.</p>
+<p>Alos, dawn, defined by the sun’s position before sunrise.</p>
 <p>Calculated when the sun is 18° below the eastern geometric horizon before sunrise.</p>
-<p>The calculation may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not get low enough below the horizon for this calculation.</p>
+<p>This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.</p>
 <details class="info">
 <summary>Technical details</summary>
 <p>Source method: <code>ComprehensiveZmanimCalendar.getAlos18Degrees</code></p>
 <p>Technical reference: <code>com.kosherjava.zmanim.ComprehensiveZmanimCalendar.getAlos18Degrees</code></p>
 </details>
 <h2 id="alos-19-degrees">Alos 19 Degrees<a class="headerlink" href="#alos-19-degrees" title="Permanent link">&para;</a></h2>
-<p>Alos, or dawn, defined by the sun’s position before sunrise. This is the <a href="https://en.wikipedia.org/wiki/Maimonides">Rambam</a>'s alos according to Rabbi Moshe Kosower's <a href="https://www.worldcat.org/oclc/145454098">Maaglei Tzedek</a>, page 88, <a href="https://hebrewbooks.org/pdfpager.aspx?req=33464&amp;pgnum=13">Ayeles Hashachar Vol. I, page 12</a>, <a href="https://hebrewbooks.org/pdfpager.aspx?req=55960&amp;pgnum=258">Yom Valayla Shel Torah, Ch. 34, p. 222</a>, and Rabbi Yaakov Shakow's <a href="https://www.worldcat.org/oclc/1043573513">Luach Ikvei Hayom</a>.</p>
+<p>Alos, dawn, defined by the sun’s position before sunrise. This is described as the Rambam’s alos according to Rabbi Moshe Kosower’s <a href="https://www.worldcat.org/oclc/145454098">Maaglei Tzedek</a>, <a href="https://hebrewbooks.org/pdfpager.aspx?req=33464&amp;pgnum=13">Ayeles Hashachar Vol. I, page 12</a>, <a href="https://hebrewbooks.org/pdfpager.aspx?req=55960&amp;pgnum=258">Yom Valayla Shel Torah, Ch. 34, p. 222</a>, and Rabbi Yaakov Shakow’s <a href="https://www.worldcat.org/oclc/1043573513">Luach Ikvei Hayom</a>.</p>
 <p>Calculated when the sun is 19° below the eastern geometric horizon before sunrise.</p>
-<p>The calculation may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not get low enough below the horizon for this calculation.</p>
+<p>This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.</p>
 <details class="info">
 <summary>Technical details</summary>
 <p>Source method: <code>ComprehensiveZmanimCalendar.getAlos19Degrees</code></p>
 <p>Technical reference: <code>com.kosherjava.zmanim.ComprehensiveZmanimCalendar.getAlos19Degrees</code></p>
 </details>
 <h2 id="alos-19-point-8-degrees">Alos 19 Point 8 Degrees<a class="headerlink" href="#alos-19-point-8-degrees" title="Permanent link">&para;</a></h2>
-<p>Alos, or dawn, defined by the sun’s position before sunrise. It is a degree-based counterpart to the 90-minutes-before-sunrise calculation.</p>
-<p>Calculated when the sun is 19.8° below the eastern geometric horizon before sunrise. The 19.8° value is based on the sun’s position 90 minutes before sunrise in Jerusalem <a href="https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/">around the equinox / equilux</a>.</p>
-<p>The calculation may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not get low enough below the horizon for this calculation.</p>
+<p>Alos, dawn, defined by the sun’s position before sunrise. It is based on the same idea as 90 minutes before sunrise, but uses a degree-based calculation instead of exactly 90 minutes.</p>
+<p>Calculated when the sun is 19.8° below the eastern geometric horizon before sunrise. The 19.8° value is based on the position of the sun 90 minutes before sunrise in Jerusalem <a href="https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/">around the equinox / equilux</a>.</p>
+<p>This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.</p>
 <details class="info">
 <summary>Technical details</summary>
 <p>Source method: <code>ComprehensiveZmanimCalendar.getAlos19Point8Degrees</code></p>
 <p>Technical reference: <code>com.kosherjava.zmanim.ComprehensiveZmanimCalendar.getAlos19Point8Degrees</code></p>
 </details>
 <h2 id="alos-26-degrees">Alos 26 Degrees<a class="headerlink" href="#alos-26-degrees" title="Permanent link">&para;</a></h2>
-<p>Deprecated as a warning that this is a very early time. It should be used lechumra only, because using it lekula can result in doing mitzvos hayom too early according to most opinions.</p>
-<p>Alos, or dawn, according to a very early degree-based calculation. It should be used lechumra only, such as stopping eating at this time on a fast day, and not as the start time for mitzvos that can only be performed during the day.</p>
-<p>Calculated when the sun is 26° below the eastern geometric horizon before sunrise. This is based on the same idea as 120 minutes before sunrise, but uses the sun’s position rather than exactly 120 minutes. The 26° value is based on the sun’s position 120 minutes before sunrise in Jerusalem <a href="https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/">around the equinox / equilux</a>.</p>
-<p>The calculation may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not get low enough below the horizon for this calculation.</p>
+<p>Deprecated because this is a very early time and should be used only lechumra, such as stopping eating at this time on a fast day. Using it lekula can result in doing mitzvos hayom too early according to most opinions.</p>
+<p>Alos, dawn, according to a very early degree-based opinion. It should be used only lechumra, such as stopping eating at this time on a fast day, and not as the start time for mitzvos that can only be performed during the day.</p>
+<p>Calculated when the sun is 26° below the eastern geometric horizon before sunrise. It is based on the same idea as 120 minutes before sunrise, but uses a degree-based calculation instead of exactly 120 minutes. The 26° value is based on the position of the sun 120 minutes before sunrise in Jerusalem <a href="https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/">around the equinox / equilux</a>.</p>
+<p>This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not reach low enough below the horizon for this calculation.</p>
 <details class="info">
 <summary>Technical details</summary>
 <p>Source method: <code>ComprehensiveZmanimCalendar.getAlos26Degrees</code></p>
 <p>Technical reference: <code>com.kosherjava.zmanim.ComprehensiveZmanimCalendar.getAlos26Degrees</code></p>
 </details>
 <h2 id="alos-60-minutes">Alos 60 Minutes<a class="headerlink" href="#alos-60-minutes" title="Permanent link">&para;</a></h2>
-<p>Alos, or dawn, calculated as 60 minutes before sunrise.</p>
-<p>Calculated as 60 minutes before sunrise, or before sea-level sunrise depending on the elevation setting. It is based on the time to walk 4 <a href="https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement">mil</a> at 15 minutes per mil. Time-based offset calculations are based on the view of the <a href="https://en.wikipedia.org/wiki/Rishonim">Rishonim</a> that the neshef, the time between dawn and sunrise, does not vary by season or location but depends on the time needed to walk 4 mil.</p>
-<p>The calculation may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.</p>
-<p>This time depends on whether elevation is used.</p>
-<p>The 60-minute calculation is associated with discussion of the <a href="https://en.wikipedia.org/wiki/Yair_Bacharach">Chavas Yair</a> in the Mekor Chaim, Orach Chaim Ch. 90; the <a href="https://hebrewbooks.org/pdfpager.aspx?req=45193&amp;pgnum=214">Chut Hashani Ch. 97</a>; the <a href="https://he.wikipedia.org/wiki/%D7%9E%D7%9C%D7%9B%D7%99%D7%90%D7%9C_%D7%A6%D7%91%D7%99_%D7%98%D7%A0%D7%A0%D7%91%D7%95%D7%99%D7%9D">Divrei Malkiel</a>, <a href="https://hebrewbooks.org/pdfpager.aspx?req=803&amp;pgnum=33">Vol. 4, Ch. 20, page 34</a>; the <a href="https://en.wikipedia.org/wiki/Joseph_Colon_Trabotto">Maharik</a>, <a href="https://hebrewbooks.org/pdfpager.aspx?req=1142&amp;pgnum=216">Ch. 173</a>; and the <a href="https://en.wikipedia.org/wiki/Eliezer_ben_Nathan">Ra'avan</a>.</p>
+<p>Alos, dawn, calculated as 60 minutes before sunrise. This is based on the time to walk 4 mil at 15 minutes per mil, and is presented as the opinion of the Chavas Yair in the Mekor Chaim, Orach Chaim Ch. 90.</p>
+<p>Calculated as 60 minutes before sunrise, or before sea-level sunrise, depending on the elevation setting. Time-based offset calculations are based on the opinion of the Rishonim that the neshef, the time between dawn and sunrise, does not vary by season or location but depends on the walking time for 4 mil.</p>
+<p>The calculation depends on whether the elevation setting uses sunrise or sea-level sunrise.</p>
+<p>The raw sources also note that the Mekor Chaim in Ch. 58 and <a href="https://hebrewbooks.org/pdfpager.aspx?req=45193&amp;pgnum=214">Chut Hashani Ch. 97</a> state that a person walks 3 and a third mil in an hour, or an 18-minute mil. The <a href="https://he.wikipedia.org/wiki/%D7%9E%D7%9C%D7%9B%D7%99%D7%90%D7%9C_%D7%A6%D7%91%D7%99_%D7%98%D7%A0%D7%A0%D7%91%D7%95%D7%99%D7%9D">Divrei Malkiel</a> <a href="https://hebrewbooks.org/pdfpager.aspx?req=803&amp;pgnum=33">Vol. 4, Ch. 20, page 34</a> mentions a 15-minute mil lechumra by baking matzos. The <a href="https://en.wikipedia.org/wiki/Joseph_Colon_Trabotto">Maharik</a> <a href="https://hebrewbooks.org/pdfpager.aspx?req=1142&amp;pgnum=216">Ch. 173</a> quotes the <a href="https://en.wikipedia.org/wiki/Eliezer_ben_Nathan">Ra’avan</a> as holding that a mil is 15 minutes, though many believe there is a scribe’s error and that it should be 4 mil in a little over an hour, or an 18-minute mil.</p>
+<p>This time may not be available where the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.</p>
 <details class="info">
 <summary>Technical details</summary>
 <p>Source method: <code>ComprehensiveZmanimCalendar.getAlos60Minutes</code></p>
 <p>Technical reference: <code>com.kosherjava.zmanim.ComprehensiveZmanimCalendar.getAlos60Minutes</code></p>
 </details>
 <h2 id="alos-72-zmanis">Alos 72 Zmanis<a class="headerlink" href="#alos-72-zmanis" title="Permanent link">&para;</a></h2>
-<p>Alos, or dawn, calculated as 72 minutes zmaniyos, equal to 1/10 of the day, before sunrise. This calculation is used in calendars published by the <a href="https://en.wikipedia.org/wiki/Central_Rabbinical_Congress">Hisachdus Harabanim D'Artzos Habris Ve'Canada</a>.</p>
-<p>Calculated as 1.2 shaos zmaniyos before sunrise. It is based on an 18-minute <a href="https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement">mil</a>, so 4 mil equals 72 minutes, or 1/10 of a 12-hour day. The day is measured from sea-level sunrise to sea-level sunset, or from sunrise to sunset depending on the elevation setting.</p>
-<p>The calculation may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.</p>
-<p>This time depends on whether elevation is used.</p>
+<p>Alos, dawn, calculated using 72 zmaniyos minutes, or one tenth of the day, before sunrise. This calculation is used in calendars published by the <a href="https://en.wikipedia.org/wiki/Central_Rabbinical_Congress">Hisachdus Harabanim D’Artzos Habris Ve’Canada</a>.</p>
+<p>Calculated as 72 zmaniyos minutes, equal to one tenth of the day, before sunrise. It is based on an 18-minute mil, so 4 mil equal 72 minutes, or one tenth of a 12-hour day. The day is measured from sea-level sunrise to sea-level sunset, or from sunrise to sunset, depending on the elevation setting.</p>
+<p>The calculation depends on the elevation setting.</p>
+<p>This time may not be available where the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.</p>
 <details class="info">
 <summary>Technical details</summary>
 <p>Source method: <code>ComprehensiveZmanimCalendar.getAlos72Zmanis</code></p>
@@ -1541,7 +1540,7 @@
 </details>
 <h2 id="alos-16-point-1-degrees">Alos 16 Point 1 Degrees<a class="headerlink" href="#alos-16-point-1-degrees" title="Permanent link">&para;</a></h2>
 <p>Alos, dawn, defined as the time when the sun is 16.1° below the eastern geometric horizon before sunrise. It is based on a 72-minute interval between dawn and sunrise, and between sunset and nightfall, corresponding to walking 4 <a href="https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement">mil</a> at 18 minutes per mil, as attributed to <a href="https://en.wikipedia.org/wiki/Maimonides">Rambam</a> and others.</p>
-<p>Calculated by the sun reaching 16.1° below the geometric horizon before sunrise. This angle is based on the sun’s position below the horizon 72 minutes before sunrise in Jerusalem <a href="https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/">around the equinox / equilux</a>.</p>
+<p>Calculated by the sun reaching 16.1° below the geometric horizon before sunrise. This angle is based on the sun’s position 72 minutes before sunrise in Jerusalem <a href="https://kosherjava.com/2022/01/12/equinox-vs-equilux-zmanim-calculations/">around the equinox / equilux</a>.</p>
 <p>This time may not be available in northern and southern locations, even south of the Arctic Circle and north of the Antarctic Circle, where the sun may not get low enough below the horizon for this calculation.</p>
 <details class="info">
 <summary>Technical details</summary>
@@ -1549,7 +1548,7 @@
 <p>Technical reference: <code>com.kosherjava.zmanim.ZmanimCalendar.getAlos16Point1Degrees</code></p>
 </details>
 <h2 id="alos-72-minutes">Alos 72 Minutes<a class="headerlink" href="#alos-72-minutes" title="Permanent link">&para;</a></h2>
-<p>Alos, dawn, according to a fixed 72-minute interval before sunrise. It is based on the time to walk 4 <a href="https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement">mil</a> at 18 minutes per mil. The 72-minute duration, but not the concept of fixed minutes, follows the view that the Neshef, the twilight between dawn and sunrise, does not vary by season or location but depends on the time needed to walk 4 mil.</p>
+<p>Alos, dawn, according to a fixed 72-minute interval before sunrise. It is based on the time to walk 4 <a href="https://en.wikipedia.org/wiki/Biblical_and_Talmudic_units_of_measurement">mil</a> at 18 minutes per mil. The 72-minute duration is based on the view that the Neshef, the twilight between dawn and sunrise, does not vary by season or location but depends on the time needed to walk 4 mil.</p>
 <p>Calculated as 72 minutes before sunrise, using either regular sunrise or sea-level sunrise depending on the elevation setting.</p>
 <p>This time may not be available where the calculation cannot be computed, such as in the Arctic Circle where there is at least one day a year when the sun does not rise and one when it does not set.</p>
 <details class="info">
