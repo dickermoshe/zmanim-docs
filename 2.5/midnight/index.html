@@ -1128,22 +1128,22 @@
 <h1 id="midnight">Midnight<a class="headerlink" href="#midnight" title="Permanent link">&para;</a></h1>
 <p><a href="../">Back to all zmanim</a></p>
 <h2 id="solar-midnight">Solar Midnight<a class="headerlink" href="#solar-midnight" title="Permanent link">&para;</a></h2>
-<p>Solar midnight is the end-of-day solar midnight for the date being calculated, which may actually be after civil midnight. For example, calculating it for February 8 means the midnight between February 8 and February 9. It occurs when the Sun is <a href="https://en.wikipedia.org/wiki/Transit_%28astronomy%29">transiting</a> the lower <a href="https://en.wikipedia.org/wiki/Meridian_%28astronomy%29">celestial meridian</a>, or when the Sun is at its <a href="https://en.wikipedia.org/wiki/Nadir">nadir</a>.</p>
-<p>The calculation depends on the astronomical calculator being used. With the default NOAA calculator, it calculates astronomical midnight. With the USNO calculator, which does not calculate astronomical noon, midnight is calculated as 12 hours after the halfway point between sea-level sunrise and sea-level sunset for that day.</p>
-<p>The USNO-based calculation can be slightly off the real transit time because of changes in declination, meaning the lengthening or shortening of the day.</p>
-<p>See <a href="https://kosherjava.com/2020/07/02/definition-of-chatzos/">The Definition of Chatzos</a> for details on the definition of solar noon or midday.</p>
-<p>The time may not be available when using the USNO calculator in places such as the Arctic Circle, where there is at least one day a year when the Sun does not rise and one day when it does not set. This is not expected when using the NOAA calculator.</p>
+<p>Solar midnight is the end-of-day midnight for the date being calculated, which may actually occur after civil midnight. For example, solar midnight for February 8 is the midnight between February 8 and February 9. It occurs when the Sun is <a href="https://en.wikipedia.org/wiki/Transit_%28astronomy%29">transiting</a> the lower <a href="https://en.wikipedia.org/wiki/Meridian_%28astronomy%29">celestial meridian</a>, or when the Sun is at its <a href="https://en.wikipedia.org/wiki/Nadir">nadir</a>.</p>
+<p>The calculation depends on the astronomical calculator being used. With the default NOAA calculator, it calculates astronomical midnight. With the USNO calculator, it is calculated as 12 hours after the halfway point between sea-level sunrise and sea-level sunset for that day, which can be slightly off the real transit time because of changes in declination. See <a href="https://kosherjava.com/2020/07/02/definition-of-chatzos/">The Definition of Chatzos</a> for details on the definition of solar noon or midday.</p>
+<p>This time is for the end of the current day, not the beginning.</p>
+<p>With the USNO calculator, the time may not be available in places such as the Arctic Circle, where there is at least one day a year when the sun does not rise and one when it does not set.</p>
+<p>With the NOAA calculator, this time is never expected to be unavailable.</p>
 <details class="info">
 <summary>Technical details</summary>
 <p>Source method: <code>AstronomicalCalendar.getSolarMidnight</code></p>
 <p>Technical reference: <code>com.kosherjava.zmanim.AstronomicalCalendar.getSolarMidnight</code></p>
 </details>
 <h2 id="chatzos-halayla">Chatzos Halayla<a class="headerlink" href="#chatzos-halayla" title="Permanent link">&para;</a></h2>
-<p>Chatzos halayla is calculated for the end of the day, as the last zman of the day, and may actually be after civil midnight. For example, when calculating it for Erev Pesach, it is calculated for Lail Pesach so it can be used as sof zman achilas chametz.</p>
-<p>If astronomical chatzos halayla is supported and the setting to use astronomical chatzos is enabled, astronomical chatzos halayla is used. Otherwise, it is calculated as the halfway point between sunset and the following day’s sunrise. The USNO calculator uses the halfway point between sunset and the following day’s sunrise, identical to six shaos zmaniyos after sunset, while the NOAA calculator calculates it more accurately as astronomical chatzos halayla.</p>
-<p>See <a href="https://kosherjava.com/2020/07/02/definition-of-chatzos/">The Definition of Chatzos</a> for a detailed explanation of the ways to calculate chatzos.</p>
-<p>The halfway-between-sunset-and-sunrise calculation may not be available in the Arctic on a day when either sunset or the following day’s sunrise did not happen. If that calculation is unavailable and astronomical chatzos is supported, astronomical chatzos is used instead.</p>
-<p>The time may not be available in places such as the Arctic Circle, where there is at least one day when the Sun does not rise and one day when it does not set, if astronomical calculations are not supported.</p>
+<p>Chatzos halayla is the midnight point at the end of the day, the last zman of the day, and it may actually occur after civil midnight. For example, when calculating it for Erev Pesach, the time is for Lail Pesach so it can be used as sof zman achilas chametz.</p>
+<p>If astronomical chatzos halayla is supported and the setting to use astronomical chatzos is enabled, astronomical chatzos halayla is used. Otherwise it is calculated as the halfway point between sunset and the following day’s sunrise. The USNO calculator calculates chatzos halayla as halfway between sunset and the following day’s sunrise, identical to six shaos zmaniyos after sunset, while the NOAA calculator calculates it more accurately as astronomical chatzos halayla. See <a href="https://kosherjava.com/2020/07/02/definition-of-chatzos/">The Definition of Chatzos</a> for a detailed explanation of ways to calculate chatzos.</p>
+<p>This time is for the end of the current day, not the beginning.</p>
+<p>In the Arctic, the halfway-between-sunset-and-following-sunrise calculation may not be available on a day when either sunset or the following day’s sunrise did not occur. If that happens and astronomical chatzos is supported, astronomical chatzos is used instead.</p>
+<p>If the calculation cannot be computed, such as in the Arctic Circle where there is at least one day when the sun does not rise and one when it does not set, and astronomical calculations are not supported, the zman may not be available.</p>
 <details class="info">
 <summary>Technical details</summary>
 <p>Source method: <code>ZmanimCalendar.getChatzosHalayla</code></p>
