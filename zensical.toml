@@ -22,7 +22,7 @@ site_description = "Simple explanations of each zman, including what it means, h
 # The site_author attribute. This is used in the HTML head element.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_author
-site_author = "Eliyahu Hershfeld"
+site_author = "Moshe Dicker"
 
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
@@ -34,7 +34,7 @@ site_author = "Eliyahu Hershfeld"
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
 copyright = """
-Copyright &copy; 2026 Eliyahu Hershfeld
+Copyright &copy; 2026 Moshe Dicker
 """
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
